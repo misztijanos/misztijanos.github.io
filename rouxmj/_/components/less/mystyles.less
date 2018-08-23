@@ -1,0 +1,262 @@
+a {
+	outline: 0 !important;
+}
+
+//my colors
+@red: 				#BA83D4;
+@magenta: 		#FDF5E3;
+@beige: 			#FDF5E3;
+@yellow:			#FDAD22;
+@purple:			#475C98;
+@darkblue: 		#586E75;
+@pink:				#D33682;
+
+@headlineFontFamily:			"Bree Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@copyFontFamily:					Merriweather,Georgia, "Times New Roman", Times, serif;
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: @headlineFontFamily;
+	color: @purple;
+}
+
+body {
+	background: @purple url(../../images/misc/background_buildings.png);
+	margin-top: 30px;
+}
+
+p {
+	font-family: @copyFontFamily;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	color: @darkblue;
+	padding: 0 2%;
+}
+
+.container {
+	background: @beige;
+	-webkit-border-radius: 60px 0 0 0;
+	-moz-border-radius: 60px 0 0 0;
+	border-radius: 60px 0 0 0;
+
+	@media(max-width: 767px) {
+		-webkit-border-radius: 20px 0 0 0;
+		-moz-border-radius: 20px 0 0 0;
+		border-radius: 20px 0 0 0;
+	}
+}
+
+.main {
+	background: @beige;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.carousel {
+	margin-bottom: 0;
+}
+
+.main>article {
+	margin: 0 5%;
+}
+
+.sidebar>aside {
+	padding-right: 5%;
+
+	@media(max-width: 767px) {
+		padding-left: 5%;
+	}
+}
+
+aside {
+	h2 {
+		font-size: 1.8em;
+		color: @pink;
+		border-bottom: 1px dotted @purple;
+	}
+}
+
+.navbar {
+	border-right: none;
+	border-left: none;
+	border-radius: 0;
+}
+
+#branding {
+	img {
+		margin: 10px 0 5px 25px;
+		max-width: 450px;
+			@media(max-width: 767px) {
+				margin: 10px 0 5px 10px;
+				width: 90%;
+			}
+	}
+}
+
+.accordion-heading {
+	background: @purple;
+	a {
+		color: white;
+	}
+}
+
+.aboutthevenues {
+	article {
+		margin: 0;
+		padding: 0;
+	}
+
+	h2 {
+		padding: 0;
+		padding-bottom: 0;
+		border-bottom: 1px dotted @purple;
+	}
+
+	h3 {
+		color: @pink;
+		padding: 0;
+		margin: 0;
+		font-size: 1.5em;
+	}
+}
+
+.nav-tabs {
+	li a {
+		color: @purple;
+	}
+
+	li.active a {
+		background: @beige;
+	}
+
+	li a:hover {
+		background: @pink;
+		color: white;
+	}
+}
+
+.nav-tabs li.active {
+	a {
+		color: @pink;
+		font-weight: bold;
+	}
+}
+
+.tab-content {
+	h3, h4 {
+		margin: 0;
+		padding: 0;
+	}
+
+	h3 {
+		color: @pink;
+		line-height: 1em
+	}
+
+	p {
+		padding: 0;
+		padding-top: 10px;
+	}
+}
+
+.photogrid img {
+	width: 96px;
+	margin: 0 5px 5px 0;
+	cursor: pointer;
+
+	@media (max-width: 990px) {
+		width: 64px;
+	}
+}
+
+.artistinfo {
+	article, p, h1 {
+		padding: 0 2%
+	}
+
+	.photogrid img {
+		width: 72px;
+		margin: 0 5px 5px 0;
+		cursor: pointer;
+	}
+
+	h3 {
+		color: pink;
+	}
+}
+
+footer {
+	ul.breadcrumb {
+		background: @purple;
+		margin: 0 auto;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+
+		li {
+			text-shadow: none;
+			a {
+				color: white;
+			}
+		}
+	}
+}
+
+.navbar .nav>li>.dropdown-menu {
+	top: 30px;
+}
+
+.scrollspy .nav{
+	background: @purple;
+	margin-top: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+
+	@media (max-width: 979px) {
+		width: 15%;
+		max-width: 120px;
+	}
+
+	@media (min-width: 980px) (max-width: 1199){
+	 width: 13%;
+		min-width: 120px;
+	}
+
+	@media (min-width: 1200px) {
+		width: 13%;
+		max-width: 180px;
+	}
+
+	li {
+		padding: 0;
+		margin: 0;
+		border-bottom: 1px solid darken(@purple, 10%);
+		border-top: 1px solid lighten(@purple, 10%);
+
+		a {
+			color: white;
+			text-indent: -20px;
+			padding-left: 30px;
+		}
+
+		a:hover {
+			background: @yellow;
+			color: black;
+		}
+	}
+
+li.active {
+	background: @pink;
+}
+
+li:first-child {
+	border-top:none;
+}
+
+li:last-child {
+	border-bottom: none;
+}
+
+}

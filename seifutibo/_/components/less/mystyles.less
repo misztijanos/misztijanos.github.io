@@ -1,0 +1,869 @@
+a {
+	outline: 0 !important;
+}
+
+//my colors
+@orange:      #fca705;
+@white:       #ffffff;
+@black:       #000000;
+@red: 				#B91806;
+@magenta: 		#FDF5E3;
+@beige: 			#FDF5E3;
+@yellow:			#FFFF00;
+@darkyellow:  #F7D358;
+@purple:			#475C98;
+@darkblue: 		#000066;
+@pink:				#D33682;
+@grey: 				#999999;
+
+@headlineFontFamily:			"Bree Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@copyFontFamily:					Arial, Helvetica,adobe-helvetica,Arial Narrow;
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: @headlineFontFamily;
+	color: @purple;
+}
+
+body {
+	width: 1000px;
+	margin: auto;
+	background: gray url("../../images/misc/background.jpg");
+	margin-top: 16px;
+	margin-bottom: 0;
+}
+
+p {
+	font-family: @copyFontFamily;
+	font-size: 1.1em;
+	line-height: 1.4em;
+	color: @darkblue;
+	padding: 0 2%;
+}
+
+.container {
+	max-width: 100%;
+	//width: 1000px !important;
+	padding: 0;
+}
+
+#menu1 {
+	background-color: @red;
+	height: 22px;
+	line-height: 16px;
+	li {
+		font-family: Arial,Helvetica,adobe-helvetica,Arial Narrow;
+    font-size: 13px;
+    line-height: 16px;
+    min-height: 16px;
+	}
+	
+	li a {
+		color: @orange;
+		padding-top: 3px;
+		padding-bottom: 3px;
+	}
+}
+
+#menu2 {
+	background-color: @orange;
+	height: 24px;
+	line-height: 16px;
+	border-bottom: solid 1px @black;
+	li {
+		font-family: Arial,Helvetica,adobe-helvetica,Arial Narrow;
+    font-size: 13px;
+    line-height: 16px;
+    min-height: 16px;
+	}
+	li a {
+		color: @darkblue;
+		padding-top: 4px;
+		padding-bottom: 3px;
+	}
+}
+#menu3 {
+	background-color: @grey;
+	height: 35px;
+	li {
+		font-family: Arial,Helvetica,adobe-helvetica,Arial Narrow;
+    font-size: 10px;
+    width: 108px;
+	}
+	li a {
+		text-align: center;
+		background-color: @orange;
+		color: @black;
+		font-weight: 700;
+		padding: 9px 5px 6px 5px;
+		margin-top: 4px;
+		margin-right: 8px;
+		border-top-left-radius: 16px;
+		border-top-right-radius: 16px;
+		border-bottom-right-radius: 0;
+		border-bottom-left-radius: 0; 
+	}
+	li a:hover {
+		background-color: @darkyellow;
+	}
+	.active a{
+		background-color: @darkyellow;
+	}
+}
+
+
+
+#banner {
+	background-color: @black;
+  height: 83px;
+  padding: 0;
+  h2 {
+  	font-family: Times New Roman,adobe-times,Times;
+    font-size: 28px;
+    line-height: 33px;
+    min-height: 33px;
+    text-align: center;
+    color: @white;
+    margin-bottom: 0;
+    }
+  h1 {
+  	font-family: Times New Roman,adobe-times,Times;
+    font-size: 32px;
+    line-height: 36px;
+    min-height: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    color: @white;
+    font-weight: bold;
+    margin-top: 0;
+  }
+}
+
+footer {
+		.breadcrumb {
+		background: none;
+		margin: auto;
+		margin-bottom: 0;
+		text-align: center;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-radius: 0;
+
+		li {
+			text-shadow: none;
+			a {
+				font-family: Arial,Helvetica,adobe-helvetica,Arial Narrow;
+		    font-size: 10px;
+		    line-height: 13px;
+		    min-height: 13px;
+			}
+		}
+		li:after {
+	    color: @darkblue;
+	    content: " |";
+	  }
+	  li a:hover {
+	  	color: @red;
+	  }
+	}
+}
+
+footer #bc1 {	
+	margin-top: 40px;
+	margin-bottom: 0;
+	padding-bottom: 3px;
+	
+	li a {
+		color: @darkblue;
+	}
+	li a:hover {
+	  	color: @red;
+	  }
+}
+
+footer #bc2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 5px;
+	li a {
+		color: @black;
+	}
+	li a:hover {
+	  	color: @red;
+	  }
+}
+
+#footer-bottom {
+	color: @darkblue;
+	text-align: center;
+	background-color: lightblue;
+	margin-top: 0;
+	margin-bottom: 0;
+
+	font-family: Arial,Helvetica,adobe-helvetica,Arial Narrow;
+  font-size: 10px;
+  line-height: 13px;
+  min-height: 13px;
+  padding-bottom: 0;
+  #bc3 {
+  	display: inline;
+  	padding-bottom: 0;
+  	li a {
+		color: @black;
+		}
+		li a:hover {
+		  	color: @red;
+		}
+  }
+}
+
+.home {
+	margin-top: 10px;
+
+	.thumbnail {
+		background: none;
+		border: none;
+		margin: 30px;
+
+		#moving-img-container {
+			height: 214px;
+			width: 313px;
+			img {
+			height: 214px;
+			border: none;
+			margin: 0 auto;
+			}
+		}
+
+		.caption-carousel {
+			width: 313px;
+			border: 1px solid @black;
+			font-size: 10px;
+			line-height: 13px;
+			min-height: 13px;
+			padding: 3px;
+			margin-top: 5px;
+		}
+	}
+
+	h4 {
+		font-family: Times New Roman,adobe-times,Times;
+		font-size: 20px;
+		line-height: 19px;
+		color: black;
+		font-weight: 700;
+		text-indent: 90px;
+		margin: 40px 0 40px 0;
+	}
+
+	p {
+	  font-family: @copyFontFamily;
+	  color: @black;
+	  font-size: 13px;
+	  line-height: 16px;
+	  min-height: 16px;
+	}
+}
+
+// site wide styles:
+.thumbnail {
+	background: none;
+	border: none;
+	margin: 30px;
+
+	.img-container {
+		height: 378px;
+		width: 303px;
+		img {
+		height: 378px;
+		border: none;
+		margin: 0 auto;
+		}
+	}
+
+	.caption {
+		width: 303px;
+		border: 1px solid @black;
+		font-size: 10px;
+		line-height: 13px;
+		min-height: 13px;
+		padding: 3px;
+		margin-top: 5px;
+		background-color: @darkyellow;
+	}
+}
+
+h3 {
+	
+	font-family: Times New Roman,adobe-times,Times;
+	font-size: 20px;
+	line-height: 19px;
+	color: black;
+	font-weight: 700;
+	
+}
+h4 {
+	font-family: Times New Roman,adobe-times,Times;
+	font-size: 20px;
+	line-height: 19px;
+	color: black;
+	font-weight: 700;
+	text-indent: 90px;
+	margin: 40px 0 40px 0;
+	text-transform: uppercase;
+}
+
+p {
+  font-family: @copyFontFamily;
+  color: @black;
+  font-size: 13px;
+  line-height: 16px;
+  min-height: 16px;
+}
+//biography specific styles
+
+.biography .continue-button-kenya {
+	margin-left: 700px;
+}
+
+.biography .back-button-ehtiopia {
+	float: left;
+	margin-left: 100px;
+}
+
+.biography .continue-button-na {
+	float: right;
+	margin-right: 100px;
+}
+
+.biography .back-button-kenya {
+	float: left;
+	margin-left: 100px;
+}
+
+.biography #biopic2 {
+	margin-right: 20px;
+	img {
+		width: 303px;
+	}
+}
+
+.biography #biopic3 {
+	.img-container{
+		width: 353px;
+		height: 229px;
+	}
+	img {
+		width: 353px;
+		height: 229px;
+	}
+	.caption {
+		width: 353px;
+	}
+}
+
+.biography #biopic4 {
+	.img-container{
+		width: 467px;
+		height: 377px;
+	}
+	img {
+		width: 467px;
+		height: 377px;
+	}
+	.caption {
+		width: 467px;
+	}
+}
+.biography #biopic5 {
+	.img-container{
+		width: 419px;
+		height: 291px;
+	}
+	img {
+		width: 419px;
+		height: 291px;
+	}
+	.caption {
+		width: 419px;
+	}
+}
+
+.biography #headline-kenya {
+	margin-left: 350px;
+}
+.biography #headline-na {
+	margin-left: 250px;
+}
+
+.biography #biopic6 {
+	.img-container{
+		width: 429px;
+		height: 301px;
+	}
+	img {
+		width: 429px;
+		height: 301px;
+	}
+	.caption {
+		width: 429px;
+	}
+}
+
+.biography #biopic8 {
+	.img-container{
+		width: 405px;
+		height: 310px;
+	}
+	img {
+		width: 405px;
+		height: 310px;
+	}
+	.caption {
+		width: 405px;
+	}
+}
+
+.biography #biopic9 {
+	.img-container{
+		width: 407px;
+		height: 270px;
+	}
+	img {
+		width: 407px;
+		height: 270px;
+	}
+	.caption {
+		width: 407px;
+	}
+}
+
+.biography #biopic11 {
+	.img-container{
+		width: 405px;
+		height: 277px;
+	}
+	img {
+		width: 405px;
+		height: 277px;
+	}
+	.caption {
+		width: 405px;
+	}
+}
+
+.biography #biopic10 {
+	.img-container{
+		width: 399px;
+		height: 475px;
+	}
+	img {
+		width: 399px;
+		height: 475px;
+	}
+	.caption {
+		width: 399px;
+	}
+}
+.biography #biopic14 {
+	.img-container{
+		width: 410px;
+		height: 280px;
+	}
+	img {
+		width: 410px;
+		height: 280px;
+	}
+	.caption {
+		width: 410px;
+	}
+}
+
+.biography #biopic16 {
+	.img-container{
+		width: 410px;
+		height: 170px;
+	}
+	img {
+		width: 410px;
+		height: 170px;
+	}
+	.caption {
+		width: 410px;
+	}
+}
+
+.biography #biopic18 {
+	.img-container{
+		width: 410px;
+		height: 300px;
+	}
+	img {
+		width: 410px;
+		height: 300px;
+	}
+	.caption {
+		width: 410px;
+	}
+}
+
+.biography #biopic19 {
+	.img-container{
+		width: 410px;
+		height: 280px;
+	}
+	img {
+		width: 410px;
+		height: 280px;
+	}
+	.caption {
+		width: 410px;
+	}
+}
+
+.biography #biopic21 {
+	.img-container{
+		width: 410px;
+		height: 300px;
+	}
+	img {
+		width: 410px;
+		height: 300px;
+	}
+	.caption {
+		width: 410px;
+	}
+}
+
+.biography #biopic12 {
+	.img-container{
+		width: 422px;
+		height: 450px;
+	}
+	img {
+		width: 422px;
+		height: 450px;
+	}
+	.caption {
+		width: 422px;
+	}
+}
+
+.biography #biopic13 {
+	.img-container{
+		width: 410px;
+		height: 290px;
+	}
+	img {
+		width: 410px;
+		height: 290px;
+	}
+	.caption {
+		width: 410px;
+	}
+}
+
+.biography #biopic15 {
+	.img-container{
+		width: 433px;
+		height: 295px;
+	}
+	img {
+		width: 433px;
+		height: 295px;
+	}
+	.caption {
+		width: 433px;
+	}
+}
+
+.biography #biopic17 {
+	.img-container{
+		width: 388px;
+		height: 564px;
+	}
+	img {
+		width: 388px;
+		height: 564px;
+	}
+	.caption {
+		width: 388px;
+	}
+}
+
+.biography #biopic20 {
+	.img-container{
+		width: 410px;
+		height: 300px;
+	}
+	img {
+		width: 410px;
+		height: 300px;
+	}
+	.caption {
+		width: 410px;
+	}
+}
+
+.biography #biopic22 {
+	.img-container{
+		width: 410px;
+		height: 500px;
+	}
+	img {
+		width: 410px;
+		height: 500px;
+	}
+	.caption {
+		width: 410px;
+	}
+}
+
+//gallery specific
+
+.gallery .gallery-title {
+	margin-top: 30px;
+	width: 100%;
+	text-align: center;
+}
+
+.gallery .modalphotos {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+
+	img {
+	margin: 3px;
+	}
+}
+
+//center(ish) the modal (it's in the header)
+
+#modal {
+	text-align: center;
+	margin-top: 40px;
+}
+
+//main gallery:
+
+#gallery p {
+	text-align: center;
+}
+
+#gallery .pg-title {
+	font-size: 15px;
+}
+
+#gallery .row1 {
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#gallery {
+	
+	.gallery-title {
+		text-align: center;
+	}
+}
+
+.gal-bottom {
+	.btn {
+		width: 100px;
+		font-size: 13px;		
+	}
+
+	.button-links-title {
+		text-align: center;
+	}
+
+	.row2 {
+		width: 75%;
+		margin: auto;
+		margin-top: 30px;
+	}
+}
+
+//contact page styles:
+
+.contact .info {
+	text-align: center;
+}
+
+.contact form {
+	 width: 60%;
+	 margin-left: 15%;
+}
+
+.contact button {
+	margin-bottom: 30px;
+}
+
+.contact .additional {
+	width: 50%;
+	margin-left: 40%;
+}
+
+.contact .address {
+	font-size: 18px;
+}
+
+//donations:
+.donations {
+	
+	.title {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	}
+
+	img {
+		width: 470px;
+		height: 312px;
+		margin-top: 50px;
+		margin-left: 155px;
+	}
+
+	.info1 {
+	text-align: center;
+	color: red;
+	}
+
+	.info2 {
+	text-align: center;
+	color: blue;
+	}
+
+	form {
+	 width: 80%;
+	 margin-left: 5%;
+	}
+
+	button {
+		margin: 30px 0 20px 122px;
+	}
+
+	.additional {
+		border: 1px solid black;
+		width: 70%;
+		margin-left: 30%;
+		margin-top: 20px;
+		.address {
+			font-size: 18px;
+		}
+	}
+}
+
+// media
+
+.media {
+	h3 {
+		text-indent: 20px;
+	}
+
+	.media1 {
+	 width: 100%;
+	}
+	.media2 {
+    float: left;
+    margin: 20px;
+	}
+	.media3 {
+		float: right;
+		margin: 20px;
+	}
+	.media4 {
+		float: right;
+		margin: 20px;
+		width: 56%;
+	}
+}
+
+//events
+
+.events {
+	.event-date {
+		width: 160px;
+		height: 35px;
+		border: 1px solid black;
+		background-color: @darkyellow;
+		color: @darkblue;
+		text-align: center;
+		padding-top: 8px;
+		margin-left: 20px;
+	}
+	
+	.first {
+		margin-left: 20px;
+	}
+
+	.second .caption {
+		background: none;
+		border: none;
+		text-indent: 100px;
+	}
+
+	#vid1 {
+		.img-container{
+			width: 330px;
+			height: 248px;
+		}
+		img {
+			width: 330px;
+			height: 248px;
+		}
+		.caption {
+			width: 330px;
+		}
+	}
+
+	#pic3 {
+		.img-container{
+			width: 200px;
+			height: 248px;
+		}
+		img {
+			width: 200px;
+			height: 248px;
+		}
+		.caption {
+			width: 200px;
+		}
+	}
+
+	#vid2 {
+		margin-left: 300px;
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	#vid3 {
+		margin-left: 20px;
+		float: left;
+	}
+	#vid4 {
+		margin-left: 120px;
+		float: left;
+	}
+	.pic6 {
+		width: 70%;
+		margin-left: 15%;
+	}
+
+
+	.clear {
+	 	clear: both;
+	}
+}
+//under construction
+
+#construct .construct1 {
+	text-align: center;
+	margin-top: 200px;
+}
+
+#construct .construct2 {
+	text-align: center;
+	margin-bottom: 200px;
+}

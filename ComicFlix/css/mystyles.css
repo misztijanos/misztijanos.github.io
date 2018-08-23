@@ -1,0 +1,353 @@
+
+/*prevent navbar collapse*/
+.navbar-collapse.collapse {
+display: block!important;
+}
+
+.navbar-nav.navbar-right:last-child {
+margin-right: -15px !important;
+}
+
+.navbar-right {
+float: right!important;
+}
+
+/*logo's blue color #1fd4d6*/
+.madeby {
+  font-size: 12px;
+  z-index: 3;
+  color: #000;
+  text-align: right;
+  margin: 0px;
+  padding: 0;
+  margin-right: 12px;
+  margin-bottom: 10px;
+  /*position: relative;
+  top: -20px;*/
+  opacity: 0.4;
+
+}
+
+body {
+  margin-bottom: 0;
+  background: url("../images/comic-book-background.jpg") no-repeat #cc0000;
+  background-size: 100% 100%;
+}
+.logo-mobile {
+  display: none;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+a, a:hover, a:active, a:focus {
+  outline: 0;
+}
+
+ul {
+    list-style: none outside none;
+    height: 4.6em;
+    z-index: 2;
+}
+
+/*header {
+  height: 4.6em;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.9);
+  z-index: 3;
+}*/
+
+
+
+.navbar-inverse{
+  background-color: #fff;
+}
+
+ul.slimmenu {
+    padding: .9em;
+    text-align: right;
+    width: 100%;
+    z-index: 2;
+    margin: 0;
+    /*border: 1px solid red;*/
+}
+
+ul.slimmenu li a {
+  text-decoration: none;
+  display: block;
+  color: #777;
+  padding: 10px 0px;
+  margin: 0px 22px;
+  font-family: 'Open Sans', sans-serif; /*special font, imported in index.php*/
+  text-transform: uppercase;
+  border-bottom: 2px solid #fff;
+  font-size: 15px;
+  background: url('../images/arrowup.png') no-repeat scroll center bottom / 0px 0px transparent;
+  -webkit-transition: all 300ms linear;  /* For Safari 3.1 to 6.0 */
+  transition: all 300ms linear;
+}
+ul.slimmenu li a:hover {
+  border-bottom: 2px solid #1fd4d6;
+  color: #1fd4d6;
+  background: url('../images/arrowup.png') no-repeat scroll center bottom;
+  
+  }
+
+header img.logo {
+  height: 4.5em;
+  position: fixed;
+  top: .1em;
+  left: 1em;
+  z-index: 3;
+  }
+
+
+footer {
+  background-color: rgba(255, 255, 255, .9);
+  height: auto;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+footer {
+  margin-top: 100px;
+} /*this is for the jqueryui show effects*/
+
+footer img.logo {
+  height: 56px;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+footer nav {
+  text-align: center;
+}
+
+footer ul.breadcrumb {
+  height: auto;
+  background-color: rgba(255, 255, 255, .1);
+  color: #777;
+  /*width: 21em;*/
+  margin-bottom: 0.5em;
+  padding-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  /*border: 1px solid red;*/
+}
+footer ul.breadcrumb li a {
+  color: #777;
+}
+
+/*overall content styles*/
+.about-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about-paragraph {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.about-content{
+  text-align: left;
+  background-color: #fbfbfb;
+  margin-top: 8em;
+  border-top: 2px solid #eee;
+  border-left: 2px solid #eee;
+  margin-bottom: 8em;
+  padding: 3% 2%;
+  width: 84%;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 5px 10px 5px #888888;
+}
+
+.contact-title {
+  font-family: 'Lato', sans-serif;
+  color: #777;
+  font-size: 24px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.contact-form {
+  margin-left: 26%;
+}
+.contact-form .form-group{
+  width: 44%;
+}
+.contact-form .form-control {
+  width: 100%;
+}
+.contact-form .btn{
+  width: 16%;
+
+}
+
+.notice {
+  margin-top: .5em;
+  margin-left: 26%;
+}
+
+hr {
+  margin-bottom: 1em;
+}
+
+#myCarousel {
+  margin-top: -1em;
+  width: 100%;
+}
+#myCarousel img.pets {
+  width: 100%;
+}
+
+/*#myCarousel .down-arrow {
+  width: 100px;
+  height: auto;
+}*/
+
+#myCarousel .carousel-caption {
+  width: 19em;
+  height: 20em;
+  z-index: 1;
+  /*border: 1px solid red;*/
+  text-shadow: 0 0 5px rgba(0, 0, 0, .4);
+}
+
+#myCarousel .carousel-caption p{
+  text-align: center;
+  font-size: 2em;
+}
+#myCarousel .carousel-caption .like {
+  width: 50px;
+  height: 50px;
+  margin: 14% 0 0 0;
+  background-image: url('../images/like-button.png');
+  background-size: 100% 100%;
+  border: 1px rgba(255,255,255, .1);
+  border-radius: 6px;
+}
+
+#myCarousel .carousel-caption a:hover {
+  opacity: .8;
+}
+#myCarousel .carousel-caption a:active {
+  opacity: 1;
+}
+
+#myCarousel .carousel-caption .like-number {
+  margin: 0 10% 0 0;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 39%;
+}
+
+/*// slide specific styles (color and position)*/
+#myCarousel .caro1 .carousel-caption {
+  color: black;
+  position: absolute;
+  top: 8%;
+  left: 46%;
+}
+#myCarousel .caro2 .carousel-caption {
+  color: black;
+  position: absolute;
+  top: 8%;
+  left: 48%;
+}
+#myCarousel .caro3 .carousel-caption {
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 73%;
+}
+#myCarousel .caro4 .carousel-caption {
+  color: white;
+  position: absolute;
+  top: 10%;
+  left: 73%;
+}
+
+#myCarousel .caro5 .carousel-caption {
+  color: white;
+  position: absolute;
+  top: 20%;
+  left: 65%;
+}
+
+.carousel-control {
+  width: 5%;
+}
+@media (max-width: 1025px) {
+  #myCarousel .carousel-caption {
+  width: 15em;
+  height: 20em;
+  }
+  #myCarousel .carousel-caption p{
+  font-size: 1.6em;
+  }
+  #myCarousel .carousel-caption .like-number {
+    margin-left: 36%;
+  }
+}
+
+@media (max-width: 570px) {
+  .logo-top {
+    display: none;
+  }
+  #myCarousel .carousel-caption {
+  width: 80%;
+  height: 90%;
+  position: absolute !important;
+  top: 5% !important;
+  left: 10% !important;
+  }
+  #myCarousel .carousel-caption p{
+  font-size: 20px;
+  font-weight: bold;
+  }
+  #myCarousel .caro2 .carousel-caption p{
+    color: white;
+  }
+  #myCarousel .carousel-caption .like {
+    margin-top: 2px;
+    width: 40px;
+    height: 40px;
+  }
+  #myCarousel .carousel-caption .like-number {
+    margin: 0;
+    text-align: center;
+    color: white;
+  }
+  .contact-form {
+  margin-left: 10%;
+  }
+  .contact-form .form-group{
+    width: 80%;
+  }
+  .contact-form .form-control {
+    width: 100%;
+  }
+  .contact-form .btn{
+    width: 25%;
+
+  }
+
+  .notice {
+    margin-top: .5em;
+    margin-left: 10%;
+  }
+
+}

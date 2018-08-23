@@ -1,0 +1,694 @@
+a {
+  outline: 0 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bree Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #475c98;
+}
+body {
+  width: 1000px;
+  margin: auto;
+  background: #808080 url("../../images/misc/background.jpg");
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+p {
+  font-family: Arial, Helvetica, adobe-helvetica, Arial Narrow;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  color: #000066;
+  padding: 0 2%;
+}
+.container {
+  max-width: 100%;
+  padding: 0;
+}
+#menu1 {
+  background-color: #b91806;
+  height: 22px;
+  line-height: 16px;
+}
+#menu1 li {
+  font-family: Arial, Helvetica, adobe-helvetica, Arial Narrow;
+  font-size: 13px;
+  line-height: 16px;
+  min-height: 16px;
+}
+#menu1 li a {
+  color: #fca705;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+#menu2 {
+  background-color: #fca705;
+  height: 24px;
+  line-height: 16px;
+  border-bottom: solid 1px #000000;
+}
+#menu2 li {
+  font-family: Arial, Helvetica, adobe-helvetica, Arial Narrow;
+  font-size: 13px;
+  line-height: 16px;
+  min-height: 16px;
+}
+#menu2 li a {
+  color: #000066;
+  padding-top: 4px;
+  padding-bottom: 3px;
+}
+#menu3 {
+  background-color: #999999;
+  height: 35px;
+}
+#menu3 li {
+  font-family: Arial, Helvetica, adobe-helvetica, Arial Narrow;
+  font-size: 10px;
+  width: 108px;
+}
+#menu3 li a {
+  text-align: center;
+  background-color: #fca705;
+  color: #000000;
+  font-weight: 700;
+  padding: 9px 5px 6px 5px;
+  margin-top: 4px;
+  margin-right: 8px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#menu3 li a:hover {
+  background-color: #f7d358;
+}
+#menu3 .active a {
+  background-color: #f7d358;
+}
+#banner {
+  background-color: #000000;
+  height: 83px;
+  padding: 0;
+}
+#banner h2 {
+  font-family: Times New Roman, adobe-times, Times;
+  font-size: 28px;
+  line-height: 33px;
+  min-height: 33px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+#banner h1 {
+  font-family: Times New Roman, adobe-times, Times;
+  font-size: 32px;
+  line-height: 36px;
+  min-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 0;
+}
+footer .breadcrumb {
+  background: none;
+  margin: auto;
+  margin-bottom: 0;
+  text-align: center;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+footer .breadcrumb li {
+  text-shadow: none;
+}
+footer .breadcrumb li a {
+  font-family: Arial, Helvetica, adobe-helvetica, Arial Narrow;
+  font-size: 10px;
+  line-height: 13px;
+  min-height: 13px;
+}
+footer .breadcrumb li:after {
+  color: #000066;
+  content: " |";
+}
+footer .breadcrumb li a:hover {
+  color: #b91806;
+}
+footer #bc1 {
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding-bottom: 3px;
+}
+footer #bc1 li a {
+  color: #000066;
+}
+footer #bc1 li a:hover {
+  color: #b91806;
+}
+footer #bc2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 5px;
+}
+footer #bc2 li a {
+  color: #000000;
+}
+footer #bc2 li a:hover {
+  color: #b91806;
+}
+#footer-bottom {
+  color: #000066;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Arial, Helvetica, adobe-helvetica, Arial Narrow;
+  font-size: 10px;
+  line-height: 13px;
+  min-height: 13px;
+  padding-bottom: 0;
+}
+#footer-bottom #bc3 {
+  display: inline;
+  padding-bottom: 0;
+}
+#footer-bottom #bc3 li a {
+  color: #000000;
+}
+#footer-bottom #bc3 li a:hover {
+  color: #b91806;
+}
+.home {
+  margin-top: 10px;
+}
+.home .thumbnail {
+  background: none;
+  border: none;
+  margin: 30px;
+}
+.home .thumbnail #moving-img-container {
+  height: 214px;
+  width: 313px;
+}
+.home .thumbnail #moving-img-container img {
+  height: 214px;
+  border: none;
+  margin: 0 auto;
+}
+.home .thumbnail .caption-carousel {
+  width: 313px;
+  border: 1px solid #000000;
+  font-size: 10px;
+  line-height: 13px;
+  min-height: 13px;
+  padding: 3px;
+  margin-top: 5px;
+}
+.home h4 {
+  font-family: Times New Roman, adobe-times, Times;
+  font-size: 20px;
+  line-height: 19px;
+  color: black;
+  font-weight: 700;
+  text-indent: 90px;
+  margin: 40px 0 40px 0;
+}
+.home p {
+  font-family: Arial, Helvetica, adobe-helvetica, Arial Narrow;
+  color: #000000;
+  font-size: 13px;
+  line-height: 16px;
+  min-height: 16px;
+}
+.thumbnail {
+  background: none;
+  border: none;
+  margin: 30px;
+}
+.thumbnail .img-container {
+  height: 378px;
+  width: 303px;
+}
+.thumbnail .img-container img {
+  height: 378px;
+  border: none;
+  margin: 0 auto;
+}
+.thumbnail .caption {
+  width: 303px;
+  border: 1px solid #000000;
+  font-size: 10px;
+  line-height: 13px;
+  min-height: 13px;
+  padding: 3px;
+  margin-top: 5px;
+  background-color: #f7d358;
+}
+h3 {
+  font-family: Times New Roman, adobe-times, Times;
+  font-size: 20px;
+  line-height: 19px;
+  color: black;
+  font-weight: 700;
+}
+h4 {
+  font-family: Times New Roman, adobe-times, Times;
+  font-size: 20px;
+  line-height: 19px;
+  color: black;
+  font-weight: 700;
+  text-indent: 90px;
+  margin: 40px 0 40px 0;
+  text-transform: uppercase;
+}
+p {
+  font-family: Arial, Helvetica, adobe-helvetica, Arial Narrow;
+  color: #000000;
+  font-size: 13px;
+  line-height: 16px;
+  min-height: 16px;
+}
+.biography .continue-button-kenya {
+  margin-left: 700px;
+}
+.biography .back-button-ehtiopia {
+  float: left;
+  margin-left: 100px;
+}
+.biography .continue-button-na {
+  float: right;
+  margin-right: 100px;
+}
+.biography .back-button-kenya {
+  float: left;
+  margin-left: 100px;
+}
+.biography #biopic2 {
+  margin-right: 20px;
+}
+.biography #biopic2 img {
+  width: 303px;
+}
+.biography #biopic3 .img-container {
+  width: 353px;
+  height: 229px;
+}
+.biography #biopic3 img {
+  width: 353px;
+  height: 229px;
+}
+.biography #biopic3 .caption {
+  width: 353px;
+}
+.biography #biopic4 .img-container {
+  width: 467px;
+  height: 377px;
+}
+.biography #biopic4 img {
+  width: 467px;
+  height: 377px;
+}
+.biography #biopic4 .caption {
+  width: 467px;
+}
+.biography #biopic5 .img-container {
+  width: 419px;
+  height: 291px;
+}
+.biography #biopic5 img {
+  width: 419px;
+  height: 291px;
+}
+.biography #biopic5 .caption {
+  width: 419px;
+}
+.biography #headline-kenya {
+  margin-left: 350px;
+}
+.biography #headline-na {
+  margin-left: 250px;
+}
+.biography #biopic6 .img-container {
+  width: 429px;
+  height: 301px;
+}
+.biography #biopic6 img {
+  width: 429px;
+  height: 301px;
+}
+.biography #biopic6 .caption {
+  width: 429px;
+}
+.biography #biopic8 .img-container {
+  width: 405px;
+  height: 310px;
+}
+.biography #biopic8 img {
+  width: 405px;
+  height: 310px;
+}
+.biography #biopic8 .caption {
+  width: 405px;
+}
+.biography #biopic9 .img-container {
+  width: 407px;
+  height: 270px;
+}
+.biography #biopic9 img {
+  width: 407px;
+  height: 270px;
+}
+.biography #biopic9 .caption {
+  width: 407px;
+}
+.biography #biopic11 .img-container {
+  width: 405px;
+  height: 277px;
+}
+.biography #biopic11 img {
+  width: 405px;
+  height: 277px;
+}
+.biography #biopic11 .caption {
+  width: 405px;
+}
+.biography #biopic10 .img-container {
+  width: 399px;
+  height: 475px;
+}
+.biography #biopic10 img {
+  width: 399px;
+  height: 475px;
+}
+.biography #biopic10 .caption {
+  width: 399px;
+}
+.biography #biopic14 .img-container {
+  width: 410px;
+  height: 280px;
+}
+.biography #biopic14 img {
+  width: 410px;
+  height: 280px;
+}
+.biography #biopic14 .caption {
+  width: 410px;
+}
+.biography #biopic16 .img-container {
+  width: 410px;
+  height: 170px;
+}
+.biography #biopic16 img {
+  width: 410px;
+  height: 170px;
+}
+.biography #biopic16 .caption {
+  width: 410px;
+}
+.biography #biopic18 .img-container {
+  width: 410px;
+  height: 300px;
+}
+.biography #biopic18 img {
+  width: 410px;
+  height: 300px;
+}
+.biography #biopic18 .caption {
+  width: 410px;
+}
+.biography #biopic19 .img-container {
+  width: 410px;
+  height: 280px;
+}
+.biography #biopic19 img {
+  width: 410px;
+  height: 280px;
+}
+.biography #biopic19 .caption {
+  width: 410px;
+}
+.biography #biopic21 .img-container {
+  width: 410px;
+  height: 300px;
+}
+.biography #biopic21 img {
+  width: 410px;
+  height: 300px;
+}
+.biography #biopic21 .caption {
+  width: 410px;
+}
+.biography #biopic12 .img-container {
+  width: 422px;
+  height: 450px;
+}
+.biography #biopic12 img {
+  width: 422px;
+  height: 450px;
+}
+.biography #biopic12 .caption {
+  width: 422px;
+}
+.biography #biopic13 .img-container {
+  width: 410px;
+  height: 290px;
+}
+.biography #biopic13 img {
+  width: 410px;
+  height: 290px;
+}
+.biography #biopic13 .caption {
+  width: 410px;
+}
+.biography #biopic15 .img-container {
+  width: 433px;
+  height: 295px;
+}
+.biography #biopic15 img {
+  width: 433px;
+  height: 295px;
+}
+.biography #biopic15 .caption {
+  width: 433px;
+}
+.biography #biopic17 .img-container {
+  width: 388px;
+  height: 564px;
+}
+.biography #biopic17 img {
+  width: 388px;
+  height: 564px;
+}
+.biography #biopic17 .caption {
+  width: 388px;
+}
+.biography #biopic20 .img-container {
+  width: 410px;
+  height: 300px;
+}
+.biography #biopic20 img {
+  width: 410px;
+  height: 300px;
+}
+.biography #biopic20 .caption {
+  width: 410px;
+}
+.biography #biopic22 .img-container {
+  width: 410px;
+  height: 500px;
+}
+.biography #biopic22 img {
+  width: 410px;
+  height: 500px;
+}
+.biography #biopic22 .caption {
+  width: 410px;
+}
+.gallery .gallery-title {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+.gallery .modalphotos {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gallery .modalphotos img {
+  margin: 3px;
+}
+#modal {
+  text-align: center;
+  margin-top: 40px;
+}
+#gallery p {
+  text-align: center;
+}
+#gallery .pg-title {
+  font-size: 15px;
+}
+#gallery .row1 {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+#gallery .gallery-title {
+  text-align: center;
+}
+.gal-bottom .btn {
+  width: 100px;
+  font-size: 13px;
+}
+.gal-bottom .button-links-title {
+  text-align: center;
+}
+.gal-bottom .row2 {
+  width: 75%;
+  margin: auto;
+  margin-top: 30px;
+}
+.contact .info {
+  text-align: center;
+}
+.contact form {
+  width: 60%;
+  margin-left: 15%;
+}
+.contact button {
+  margin-bottom: 30px;
+}
+.contact .additional {
+  width: 50%;
+  margin-left: 40%;
+}
+.contact .address {
+  font-size: 18px;
+}
+.donations .title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.donations img {
+  width: 470px;
+  height: 312px;
+  margin-top: 50px;
+  margin-left: 155px;
+}
+.donations .info1 {
+  text-align: center;
+  color: red;
+}
+.donations .info2 {
+  text-align: center;
+  color: blue;
+}
+.donations form {
+  width: 80%;
+  margin-left: 5%;
+}
+.donations button {
+  margin: 30px 0 20px 122px;
+}
+.donations .additional {
+  border: 1px solid black;
+  width: 70%;
+  margin-left: 30%;
+  margin-top: 20px;
+}
+.donations .additional .address {
+  font-size: 18px;
+}
+.media h3 {
+  text-indent: 20px;
+}
+.media .media1 {
+  width: 100%;
+}
+.media .media2 {
+  float: left;
+  margin: 20px;
+}
+.media .media3 {
+  float: right;
+  margin: 20px;
+}
+.media .media4 {
+  float: right;
+  margin: 20px;
+  width: 56%;
+}
+.events .event-date {
+  width: 160px;
+  height: 35px;
+  border: 1px solid black;
+  background-color: #f7d358;
+  color: #000066;
+  text-align: center;
+  padding-top: 8px;
+  margin-left: 20px;
+}
+.events .first {
+  margin-left: 20px;
+}
+.events .second .caption {
+  background: none;
+  border: none;
+  text-indent: 100px;
+}
+.events #vid1 .img-container {
+  width: 330px;
+  height: 248px;
+}
+.events #vid1 img {
+  width: 330px;
+  height: 248px;
+}
+.events #vid1 .caption {
+  width: 330px;
+}
+.events #pic3 .img-container {
+  width: 200px;
+  height: 248px;
+}
+.events #pic3 img {
+  width: 200px;
+  height: 248px;
+}
+.events #pic3 .caption {
+  width: 200px;
+}
+.events #vid2 {
+  margin-left: 300px;
+}
+.events .center {
+  text-align: center;
+}
+.events #vid3 {
+  margin-left: 20px;
+  float: left;
+}
+.events #vid4 {
+  margin-left: 120px;
+  float: left;
+}
+.events .pic6 {
+  width: 70%;
+  margin-left: 15%;
+}
+.events .clear {
+  clear: both;
+}
+#construct .construct1 {
+  text-align: center;
+  margin-top: 200px;
+}
+#construct .construct2 {
+  text-align: center;
+  margin-bottom: 200px;
+}

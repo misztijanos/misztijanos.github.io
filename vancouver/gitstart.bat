@@ -1,0 +1,1 @@
+C:\WINDOWS\system32\cmd.exe /c ""F:\Git\bin\sh.exe" --login -i"

@@ -1,0 +1,58 @@
+a {
+	color: inherit; 
+    text-decoration: inherit; 
+}
+
+header {
+	background-color: #2098D1;
+	font-family: Lato, sans-serif;
+	color: white;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+.navigation {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+}
+.name-container {
+	width: 15em;
+	margin: 20px 0 20px 30px;
+	display: flex;
+	justify-content: center;
+}
+.name {
+	font-size: 28px;
+	font-weight: bold;
+	align-self: center;
+	text-transform: uppercase;
+	/**/
+	padding: 0 4px 0 0;
+	letter-spacing: .10em;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+  	border-right: .15em solid #c1060e; /* The typwriter cursor */
+  	white-space: nowrap; /* Keeps the content on a single line */
+  	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  	animation: 
+    typing 3s steps(25, end),
+    blink-caret .75s step-end infinite;
+}
+/*
+.name span {
+	text-transform: lowercase;
+	font-size: 22px;
+}
+*/
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 8em }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #e4b7b7; }
+}
+	

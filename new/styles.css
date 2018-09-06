@@ -3,47 +3,55 @@ a {
     text-decoration: inherit; 
 }
 
-header {
+body {
+	margin: 0;
 	background-color: #2098D1;
+}
+
+header {
+	max-width: 1160px;
+	margin: auto;
+	
 	font-family: Lato, sans-serif;
 	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
 }
-.navigation {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: flex-end;
+
+.logo {
+	height: 4em;
+	align-self: center;
+	margin: 0;
+	padding: 0;
+	margin-right: 10px;
 }
+
 .name-container {
-	width: 15em;
-	margin: 20px 0 20px 30px;
+	width: 20em;
+	margin: 20px 0 20px 20px;
 	display: flex;
 	justify-content: center;
 }
+
 .name {
 	font-size: 28px;
-	font-weight: bold;
 	align-self: center;
-	text-transform: uppercase;
 	/**/
 	padding: 0 4px 0 0;
 	letter-spacing: .10em;
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
-  	border-right: .15em solid #c1060e; /* The typwriter cursor */
+  	border-right: .15em solid white; /* The typwriter cursor ...color doesn't matter*/
   	white-space: nowrap; /* Keeps the content on a single line */
   	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   	animation: 
     typing 3s steps(25, end),
     blink-caret .75s step-end infinite;
 }
-/*
-.name span {
-	text-transform: lowercase;
-	font-size: 22px;
-}
-*/
+
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
@@ -54,5 +62,53 @@ header {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #e4b7b7; }
+  /*
+  other color options for the cursor (colors from the logo): 
+		#1e1e1e 43.7 % Nero (Black)
+		#c1060e 30.6 % Venetian Red (Red)
+		#e4b7b7 6.9 % Cavern Pink (Pink)
+		#b4b4b4 6.4 % Loblolly (Grey)
+		#5a5a5a 5.9 % Bright Grey (Grey)
+		#ca4e50 3.8 % Fuzzy Wuzzy Brown (Brown)
+		#db7d7e 2.6 % Sea Pink (Pink) */
 }
 	
+.navigation {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	list-style: none;
+	margin-right: 20px;
+	align-self: center;
+}
+
+.navigation a {
+	display: block;
+	font-size: 13px;
+	padding: 15px 12px;
+}
+
+.navigation .not-last {
+	transition: transform 0.3s;
+}
+
+.navigation .not-last:hover {
+	transform: scale(1.15);
+}
+.navigation .not-last:active {
+	transform: scale(1.30);
+}
+
+.navigation .last {
+	background-color: rgba(30, 30, 30, 0.4);
+	transition: all 0.3s;
+}
+
+.navigation .last:hover {
+	background-color: rgba(30, 30, 30, 0.6);
+	transform: scale(1.15);
+}
+.navigation .last:active {
+	background-color: rgba(30, 30, 30, 0.6);
+	transform: scale(1.25);
+}

@@ -1,3 +1,7 @@
+@-ms-viewport{
+    width: device-width;
+}
+
 a {
 	color: inherit; 
     text-decoration: inherit; 
@@ -112,3 +116,28 @@ header {
 	background-color: rgba(30, 30, 30, 0.6);
 	transform: scale(1.25);
 }
+
+@media all and (max-width: 950px) {
+	header {
+		flex-direction:column;
+	}
+	.name-container {
+		margin: auto;
+	}
+	.navigation {
+		justify-content: space-around;
+	}
+}
+
+@media all and (max-width: 600px) {
+		.name-container {
+			width: 18em;
+		}
+		.name {
+		font-size: 24px;
+
+	}
+}
+
+/*end of styles for the header*/
+

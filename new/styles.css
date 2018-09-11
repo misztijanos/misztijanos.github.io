@@ -10,14 +10,13 @@ a {
 body {
 	margin: 0;
 	background-color: #2098D1;
+	font-family: Lato, sans-serif;
+	color: white;
 }
 
 header {
 	max-width: 1160px;
 	margin: auto;
-	
-	font-family: Lato, sans-serif;
-	color: white;
 	font-weight: bold;
 	text-transform: uppercase;
 
@@ -141,3 +140,34 @@ header {
 
 /*end of styles for the header*/
 
+/*banner:*/
+
+.banner-container {
+	max-width: 1160px;
+	margin:0 auto;
+	margin-top: 40px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.who-am-i {
+	width: 500px;
+	margin-right:4px;
+	
+}
+
+.face {	
+	width: 400px;
+	margin-left:38px;
+}
+
+@media all and (max-width: 1000px) {
+	.who-am-i {
+		margin: 0 6px;
+	}
+	.face {
+		margin: 0;
+	}
+}

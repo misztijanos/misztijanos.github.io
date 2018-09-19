@@ -145,7 +145,8 @@ header {
 .banner-container {
 	max-width: 1160px;
 	margin:0 auto;
-	margin-top: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
@@ -171,3 +172,46 @@ header {
 		margin: 0;
 	}
 }
+
+@media all and (max-width: 928px) {
+	.who-am-i {
+		order: 2;
+	}
+	.face {
+		order: 1;
+	}
+}
+@media all and (max-width: 600px) {
+	.who-am-i {
+		text-align: center;
+	}
+}
+
+/*end of banner styles*/
+
+/*portfolio:*/
+
+.port-container {
+	display: flex;
+	flex-flow: row wrap;
+	width: 100%;
+}
+.port-item {
+	width: 350px;
+	height: 300px;
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+}
+.port-item img{
+	width: 200px;
+	align-self: center;
+
+}
+
+.vps {background-color: white;}
+.test1 {background-color: black;}
+.test2 {background-color: orange;}
+.test3 {background-color: green;}
+.test4 {background-color: blue;}
+.test5 {background-color: #111;}

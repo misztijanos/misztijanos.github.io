@@ -202,10 +202,35 @@ header {
 	flex-grow: 1;
 	display: flex;
 	justify-content: center;
+	flex-direction: column;
+	position: relative;
 }
 .port-item img{
 	width: 200px;
 	align-self: center;
+	transition: transform 0.3s;
+}
+
+.port-item:hover > img {
+	transform: scale(0.80);
+}
+
+.slide-up {
+	background-color: black;
+	opacity: 0.75;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	line-height: 1.4;
+	padding: 1em;
+
+	transform: translateY(100%);
+	transition: transform 0.3s;
+}
+
+.port-item:hover > .slide-up {
+	transform: translateY(0);
 
 }
 
@@ -215,3 +240,13 @@ header {
 .test3 {background-color: green;}
 .test4 {background-color: blue;}
 .test5 {background-color: #111;}
+
+/*end of portfolio styles*/
+
+.featured {
+	height: 500px;
+	width: 100%;
+	background-color: white;
+	position: relative;
+	z-index: 1;
+}

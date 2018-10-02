@@ -195,6 +195,7 @@ header {
 	display: flex;
 	flex-flow: row wrap;
 	width: 100%;
+	margin: 0;
 }
 .port-item {
 	width: 350px;
@@ -208,10 +209,10 @@ header {
 .port-item img{
 	width: 200px;
 	align-self: center;
-	transition: transform 0.3s;
+	transition: transform 0.4s;
 }
 
-.port-item:hover > img {
+.port-item:hover > img, .port-item:active > img {
 	transform: scale(0.80);
 }
 
@@ -226,10 +227,10 @@ header {
 	padding: 1em;
 
 	transform: translateY(100%);
-	transition: transform 0.3s;
+	transition: transform 0.4s;
 }
 
-.port-item:hover > .slide-up {
+.port-item:hover > .slide-up, .port-item:active > .slide-up {
 	transform: translateY(0);
 
 }
@@ -244,9 +245,41 @@ header {
 /*end of portfolio styles*/
 
 .featured {
-	height: 500px;
+	
 	width: 100%;
+	margin: 0;
+	color: #333;
 	background-color: white;
-	position: relative;
-	z-index: 1;
+	position: relative; /*z-index only works on positioned elements*/
+	z-index: 1; /*hides the slide-up from the portfolio section*/
+
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.featured h1, .featured p, .featured h3 {
+	margin: 0; /*can't have a margin on the first element (because I need the slide-up above hidden
+	                        so we might as well just reset everything*/
+}
+
+.featured h1{
+	padding: 60px 0 0 0;
+	font-size: 2.2em;
+	font-weight: bold;
+}
+
+.featured p {
+	padding: 20px 0;
+	max-width: 700px;
+	margin: 0 auto;
+	line-height: 160%;
+}
+
+.featured h3 {
+	padding: 26px 0 0 0;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+h1.testimonials {
+	padding: 100px 0 0 0;
 }

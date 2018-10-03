@@ -155,8 +155,14 @@ header {
 
 .who-am-i {
 	width: 500px;
-	margin-right:4px;
-	
+	margin-right:4px;	
+}
+
+.red-line {
+	width: 80px;
+	height: 2px;
+	background-color: #c1060e;
+	margin: 25px 0;
 }
 
 .face {	
@@ -184,6 +190,10 @@ header {
 @media all and (max-width: 600px) {
 	.who-am-i {
 		text-align: center;
+	}
+	.red-line {
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
@@ -219,12 +229,13 @@ header {
 .slide-up {
 	background-color: black;
 	opacity: 0.75;
-	width: 100%;
+	width: 90%;
 	position: absolute;
 	bottom: 0;
 	margin: 0;
 	line-height: 1.4;
-	padding: 1em;
+	padding: 1.01em 5%; /*1.01em because at 1em there's a little space under it, at some sizes...
+			 there's no reason for that space, and makes no sense why this fixes it...but it does*/
 
 	transform: translateY(100%);
 	transition: transform 0.4s;

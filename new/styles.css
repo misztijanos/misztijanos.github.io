@@ -12,6 +12,7 @@ body {
 	background-color: #2098D1;
 	font-family: Lato, sans-serif;
 	color: white;
+	box-sizing: border-box;
 }
 
 header {
@@ -89,6 +90,7 @@ header {
 	display: block;
 	font-size: 13px;
 	padding: 15px 12px;
+	letter-spacing: .02em;	
 }
 
 .navigation .not-last {
@@ -129,12 +131,11 @@ header {
 }
 
 @media all and (max-width: 600px) {
-		.name-container {
-			width: 18em;
-		}
-		.name {
-		font-size: 24px;
-
+	.name-container {
+		width: 17.8em;
+	}
+	.name {
+	font-size: 24px;
 	}
 }
 
@@ -155,7 +156,8 @@ header {
 
 .who-am-i {
 	width: 500px;
-	margin-right:4px;	
+	margin-right:4px;
+	letter-spacing: .02em;	
 }
 
 .red-line {
@@ -194,6 +196,9 @@ header {
 	.red-line {
 		margin-left: auto;
 		margin-right: auto;
+	}
+	.name {
+		padding: 0;
 	}
 }
 
@@ -256,7 +261,6 @@ header {
 /*end of portfolio styles*/
 
 .featured {
-	
 	width: 100%;
 	margin: 0;
 	color: #333;
@@ -291,6 +295,80 @@ header {
 	font-size: 1.2em;
 	font-weight: bold;
 }
-h1.testimonials {
-	padding: 100px 0 0 0;
+
+/*testimonials section*/
+
+.testimonials {
+	display: block;
+	width: 100%;
+	margin: 0;
+	color: #333;
+	background-color: white;
+	text-align: center;
+	border-top: 1px solid white;
+	padding-bottom: 60px;
+}
+
+
+.testimonials h1 {
+	padding:0;
+	font-size: 2.2em;
+	font-weight: bold;
+
+}
+
+.testimonials blockquote {
+	width: 94%;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 0 14px 0;
+	text-align: left;
+	font-size: 16px;
+}
+
+.testimonials blockquote::before {
+	display: block;
+	content: "\201C";
+	position: relative;
+	top: 40px;
+	text-align: center;
+	width: 100%;
+	font-size: 100px;
+	color: #ca4e50;
+	padding: 0;
+	margin: 0;
+	line-height: 0.8;
+}
+
+.testimonials blockquote footer {
+	text-align: right;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.testimonials a {
+	color: #ca4e50;
+}
+.testimonials a:hover, .testimonials a:active {
+	color: #c1060e;
+}
+
+/*end of testimonials*/
+/*footer:*/
+.footer {
+	width: 100%;
+	background-color: #111;
+	color: #aaa;
+	line-height: 140%;
+	padding: 5px 0;
+	text-align: center;
+	font-size: .75em;
+}
+.footer a {
+	font-weight: bold;
+	transition: color .3s;
+}
+
+.footer a:hover, .footer a:active {
+	color: #c1060e;
 }

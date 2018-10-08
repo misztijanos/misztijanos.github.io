@@ -8,5 +8,5 @@
 			<li><a href="contact.php">Contact</a></li>
 		</ul><!-- breadcrumb -->
 	</nav><!-- nav -->
-  <a class="madeby center-block" href="http://alexackermann.herokuapp.com">Made By Alex Ackermann</a>
+  <a class="madeby center-block" href="http://misztijanos.herokuapp.com">Made By Miszti János</a>
 </footer><!-- footer -->

@@ -402,11 +402,6 @@ header {
 
 }
 
-.portx2 img {
-	width: 94%;
-	max-width: 700px;
-	margin: auto;
-}
 .portx2-image {
 	display: block;
 	position: relative;
@@ -414,20 +409,26 @@ header {
 	max-width: 700px;
 	margin: auto;
 }
+
+.portx2 img {
+	width: 100%;
+}
+
 .overlay {
 	position: absolute;
     top: 0;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     left: 0;
-    background-color:#000;
-    opacity:0.15;
+    background-color: #000;
+    opacity: 0;
     z-index: 100;
     display: block;
     transition: opacity .3s;
 }
+
 .portx2-image:hover > .overlay {
-    opacity:0;
+    opacity:0.1;
 }
 
 .portx2 h4 {
@@ -444,10 +445,10 @@ header {
 	line-height: 3;
 	text-transform: uppercase;
 	font-weight: bold;
-	background-color: #ca4e50;
-	opacity: 1;
+	background-color: #c1060e;
+	opacity: .8;
 	color: white;
-	transition: background-color .3s;
+	transition: opacity .3s;
 }
 
 .portx2 .button i {
@@ -455,7 +456,7 @@ header {
 }
 
 .portx2 .button:hover, .portx2 .button:active { 
-	background-color: #c1060e;
+	opacity: 1;
 	}
 
 .description {
@@ -472,9 +473,11 @@ header {
 	text-align: left;
 	padding-bottom: 30px;
 }
+
 .description:not(:first-child) {
 	text-indent: 20px;
 }
+
 .description img {
 	width: 100px;
 	float: left;

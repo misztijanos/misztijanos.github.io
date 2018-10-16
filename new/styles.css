@@ -239,7 +239,7 @@ header {
 	bottom: 0;
 	margin: 0;
 	line-height: 1.4;
-	padding: 1.01em 5%; /*1.01em because at 1em there's a little space under it, at some sizes...
+	padding: 1.01em 5.01%; /*1.01em and 5.01% because at 1em there's a little space under it, at some sizes...
 			 there's no reason for that space, and makes no sense why this fixes it...but it does*/
 
 	transform: translateY(100%);
@@ -256,7 +256,7 @@ header {
 .test2 {background-color: orange;}
 .famtrav {background-color: white;}
 .sonia {background-color: white;}
-.test5 {background-color: #111;}
+.janos {background-color: #2098D1;}
 .vps {background-color: rgb(51, 51, 51);}
 /*end of portfolio styles*/
 

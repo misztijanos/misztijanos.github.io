@@ -15,6 +15,11 @@ body {
 	box-sizing: border-box;
 }
 
+
+.clear-both {
+	clear: both;
+}
+
 header {
 	max-width: 1160px;
 	margin: auto;
@@ -481,5 +486,38 @@ header {
 .description img {
 	width: 100px;
 	float: left;
-	margin: 0 10px 0 0;
+	margin: 0 20px 0 0;
+}
+
+/*about-janos styles:*/
+.about-intro {
+	width: 100%;
+	background-color: white;
+	color: #333;
+	text-align: center;
+	padding-top:100px;
+}
+.about-intro p, .about-intro ul {
+	width: 94%;
+	margin: 0 auto;
+	max-width: 700px;
+	line-height: 1.6;
+	text-align: left;
+	padding-bottom: 30px;
+}
+
+
+.about-intro:not(:first-child) {
+	text-indent: 20px;
+}
+
+.about-intro img {
+	width: 220px;
+	float: left;
+	margin: 0 14px 0 0;
+	border: 2px solid gray;
+}
+
+.about-list li{
+	padding-bottom: .5em;
 }

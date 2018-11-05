@@ -533,3 +533,40 @@ header {
 		display: block;
 		float: none;
 	}
+
+}
+/*hire-janos styles*/
+
+
+.hire {
+	width: 100%;
+	background-color: white;
+	color: #333;
+	text-align: center;
+	padding-top:100px;
+	display: block;
+}
+.hire p {
+	width: 94%;
+	margin: 0 auto;
+	max-width: 700px;
+	line-height: 1.6;
+	text-align: left;
+	padding-bottom: 30px;
+}
+
+.hire-link {
+	width: 200px;
+	display: block;
+	margin: 0 auto;	
+}
+.mailbox {
+	width: 130px;
+}
+.phone {
+	width: 150px;
+}
+
+.hire-link img {
+	width: 100%;
+}

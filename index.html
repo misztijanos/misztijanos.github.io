@@ -21,7 +21,7 @@
 			<li><a class="not-last" href="index.html#port-container">Portfolio</a></li>
 			<li><a class="not-last" href="index.html#testimonials">Testimonials</a></li>
 			<li><a class="not-last" href="#">Blog</a></li>
-			<li><a class="last" href="#">Hire János</a></li>
+			<li><a class="last" href="janos-hire.html">Hire János</a></li>
 		</ul>
 	</header>
 	<div class="banner-container">

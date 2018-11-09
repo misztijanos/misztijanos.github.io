@@ -545,14 +545,32 @@ header {
 	text-align: center;
 	padding-top:100px;
 	display: block;
+	font-size: 1.1em;
+	text-align: center;
 }
-.hire p {
+.hire>p {
+	width: 94%;
+	margin: 0 auto;
+	max-width: 700px;
+	line-height: 1.6;
+	padding-bottom: 30px;
+}
+
+.hire-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 	width: 94%;
 	margin: 0 auto;
 	max-width: 700px;
 	line-height: 1.6;
 	text-align: left;
-	padding-bottom: 30px;
+	padding: 15px 0 30px 0;
+	border-top: 2px solid #c1060e;
+}
+.hire-element {
+	width: 250px;
+	text-align: center;
 }
 
 .hire-link {

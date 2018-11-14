@@ -1,0 +1,900 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"just",
+				"justify-content\tproperty"
+			],
+			[
+				"line",
+				"line-height\tproperty"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"block",
+				"blockquote\tTag"
+			],
+			[
+				"trans",
+				"translateY()\ttransform"
+			],
+			[
+				"transl",
+				"translateY()\ttransform"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"space",
+				"space-around\tjustify-content"
+			],
+			[
+				"spa",
+				"space-around\tjustify-content"
+			],
+			[
+				"border-bottom",
+				"border-bottom-style\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"fle",
+				"flex-end\tjustify-content"
+			],
+			[
+				"create",
+				"createTextNode"
+			],
+			[
+				"ge",
+				"getAttribute"
+			],
+			[
+				"get",
+				"getElementsByTagName"
+			],
+			[
+				"dis",
+				"displayCitations"
+			],
+			[
+				"crea",
+				"createTextNode"
+			],
+			[
+				"test",
+				"testDiv"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"body",
+				"bodyElement"
+			],
+			[
+				"title",
+				"titleText"
+			],
+			[
+				"e",
+				"endOfZeros"
+			],
+			[
+				"inc",
+				"incrementString"
+			],
+			[
+				"mo",
+				"mouseY"
+			],
+			[
+				"mou",
+				"mouseX"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"mj_custom",
+				"mj_custom_links"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"genesis_seo",
+				"genesis_seo_site_description"
+			],
+			[
+				"portfo",
+				"portfolio-active"
+			],
+			[
+				"upp",
+				"uppercase"
+			],
+			[
+				"right",
+				"right\t(bubbles.css)"
+			],
+			[
+				"b",
+				"blockquote"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"norm",
+				"normalize.css\t(normalize.css)"
+			],
+			[
+				"p",
+				"perspective"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"animatio",
+				"animation-duration"
+			],
+			[
+				"js",
+				"js--wp-1\t(index.html)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"js--s",
+				"js--scroll-to-plans"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"sp",
+				"span-1-of-2"
+			],
+			[
+				"span",
+				"span-1-of-2"
+			],
+			[
+				"border-top",
+				"border-top-right-radius"
+			],
+			[
+				"icon",
+				"icon-small"
+			],
+			[
+				"op",
+				"optimizeLegibility"
+			],
+			[
+				"5px",
+				"5px"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"wor",
+				"word-spacing"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"wordpress",
+				"wordpress"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "janos-hire.html",
+			"settings":
+			{
+				"buffer_size": 2141,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "styles.css",
+			"settings":
+			{
+				"buffer_size": 9417,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "comic-about.html",
+			"settings":
+			{
+				"buffer_size": 3174,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "vps-about.html",
+			"settings":
+			{
+				"buffer_size": 3076,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4703,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sublimelinter",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"sub",
+				"SublimeLinter: Goto Error"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Enable Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 428.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/misztijanos.github.io"
+	],
+	"file_history":
+	[
+		"/E/misztijanos.github.io/index.php",
+		"/E/misztijanos.github.io/janos-about.html",
+		"/E/misztijanos.github.io/vps-about.html",
+		"/E/misztijanos.github.io/famtrav-about.html",
+		"/E/misztijanos.github.io/croatia-about.html",
+		"/E/misztijanos.github.io/comic-about.html",
+		"/E/misztijanos.github.io/about.html",
+		"/E/misztijanos.github.io/janos-hire.php",
+		"/E/misztijanos.github.io/index.html",
+		"/E/misztijanos.github.io/styles.css",
+		"/E/misztijanos.github.io/new/styles.css",
+		"/E/misztijanos.github.io/new/comic-about.html",
+		"/E/misztijanos.github.io/new/about.html",
+		"/C/Users/J/Pictures/about-headshot.png",
+		"/E/misztijanos.github.io/new/croatia-about.html",
+		"/E/misztijanos.github.io/new/janos-about.html",
+		"/E/misztijanos.github.io/ComicFlix/index.php",
+		"/E/misztijanos.github.io/new/index.html",
+		"/E/misztijanos.github.io/new/famtrav-about.html",
+		"/E/misztijanos.github.io/new/about-vps.html",
+		"/E/misztijanos.github.io/vancouver/components/footer.php",
+		"/E/misztijanos.github.io/vancouver/index.php",
+		"/F/adult/Wife Trainer Version 0.6c/regalia/js/models/Object.js",
+		"/F/adult/Wife Trainer Version 0.6c/regalia/js/components/CheatMenuComponents.js",
+		"/F/adult/Wife Trainer Version 0.6c/regalia/js/models/CustomProperty.js",
+		"/F/adult/Wife Trainer Version 0.6c/js/Game.js",
+		"/F/adult/Wife Trainer Version 0.6c/regalia/js/Constants.js",
+		"/F/adult/Wife Trainer Version 0.6c/js/Variable.js",
+		"/F/adult/Wife Trainer Version 0.6c/js/CustomProperty.js",
+		"/F/adult/Wife Trainer Version 0.6c/js/Utilities.js",
+		"/F/adult/Wife Trainer Version 0.6c/js/Player.js",
+		"/C/wamp/www/cobys_airport/index.php",
+		"/F/programming/portfolio/misztijanos/index.php",
+		"/E/Active (work)/test.html",
+		"/E/Active (work)/test.css",
+		"/C/Users/J/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/J/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/F/adult/Fetish Hotel 0.2.3/Fetish Hotel 0.2.3.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-03/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-03/styles.css",
+		"/C/Users/J/AppData/Roaming/Sublime Text 3/Packages/View In Browser/View In Browser.sublime-settings",
+		"/C/Users/J/AppData/Roaming/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-02/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-02/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-02/main.js",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 1/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 1/css/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 8/example_08-08/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 8/example_08-05/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 8/example_08-05/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 8/example_08-07/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 8/example_08-04/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 8/example_08-04/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 8/example_08-03/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 8/example_08-03/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 8/example_08-02/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 8/example_08-02/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 8/example_08-01/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 8/example_08-01/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 7/example_07-09/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 7/example_07-09/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 6/example_06-08/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 6/example_06-08/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 6/example_06-05/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 6/example_06-05/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 6/example_06-04/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 6/example_06-04/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 6/example_06-01/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 6/example_06-01/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 5/example_05-10/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 5/example_05-10/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 5/example_05-09/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 5/example_05-09/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 5/example_05-04/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 5/example_05-03/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 5/example_05-03/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 5/example_05-02/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 5/example_05-02/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 5/example_05-01/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 5/example_05-01/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 4/example1.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 4/myVideoPoster.png",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 4/example3.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-09/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-09/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-08/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-08/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-07/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-07/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-06/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-06/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-05/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-04/styles.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-04/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 3/example_03-01/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 2/example_02-02/index.html",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 2/example_02-02/main.css",
+		"/D/programming/Books/Frain B. - Responsive Web Design with HTML5 and CSS3(2nd Edition) - 2015/Code/Chapter 1/css/stylesOriginal.css",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter08/abbreviations/explanation.html",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter08/abbreviations/scripts/displayAbbreviations.js",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter08/abbreviations/styles/typography.css",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter08/abbreviations/scripts/addLoadEvent.js",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter07/Ajax/example.txt",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter07/Ajax/getNewContent.js",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter07/Ajax/getHttpObject.js",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter07/Ajax/addLoadEvent.js",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter07/Ajax/index.html",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter07/image_gallery/01/scripts/showPic.js",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter07/10/example.js",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter07/image_gallery/01/gallery.html",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter07/image_gallery/01/styles/layout.css",
+		"/C/Users/J/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/.jshintrc",
+		"/C/Users/J/AppData/Roaming/Sublime Text 3/Packages/JSHint Gutter/JSHint.sublime-settings",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter07/example.js",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter07/test.html",
+		"/D/programming/css tips and tricks (the net ninja)/css-only-dropdown/styles.css",
+		"/D/programming/css tips and tricks (the net ninja)/css-only-dropdown/index.html",
+		"/C/Users/J/AppData/Roaming/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/Users/J/AppData/Roaming/Sublime Text 3/Packages/User/LiveReload.sublime-settings",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter03/test.js",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter03/test2.html",
+		"/D/programming/Books/Jeremy Keith dom-scripting/chapter03/test.html",
+		"/C/Users/J/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/J/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/E/javascript practice/6.js",
+		"/E/javascript practice/test.js",
+		"/C/Users/J/Desktop/jsn_epic_pro/index.php",
+		"/C/Users/J/Desktop/jsn_epic_pro/index.php-----al_06_04_2017"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"padding",
+			"letter-spacing",
+			"font-family"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "janos-hire.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1904,
+								1904
+							]
+						],
+						"settings":
+						{
+							"SL.13.region_keys":
+							[
+							],
+							"SL.18.region_keys":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 480.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8868,
+								8868
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.19.region_keys":
+							[
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 10616.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "comic-about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3165,
+								3165
+							]
+						],
+						"settings":
+						{
+							"SL.15.region_keys":
+							[
+							],
+							"SL.17.region_keys":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 981.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "vps-about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2872,
+								2872
+							]
+						],
+						"settings":
+						{
+							"SL.18.region_keys":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 780.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4703,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								999,
+								984
+							]
+						],
+						"settings":
+						{
+							"SL.15.region_keys":
+							[
+							],
+							"SL.20.region_keys":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 154.0
+	},
+	"output.exec":
+	{
+		"height": 191.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/node.sublime-build",
+	"project": "portfolio.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"style.css"
+			],
+			[
+				"install",
+				"wp-admin\\install.php"
+			],
+			[
+				"side",
+				"wp-content\\themes\\simple-blog\\sidebar.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 275.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

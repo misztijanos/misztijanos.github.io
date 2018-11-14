@@ -125,15 +125,24 @@ header {
     height: 280px;
     width: 336px;
     overflow: hidden;
-    background-color: gray;
+    background-color: #bbb;
 }
+
 /*end of header styles*/
+
+.reclama-doi, .reclama-trei {
+	display: block;
+	width: 728px;
+	height: 90px;
+	margin: auto;
+	background-color: #bbb;
+}
 
 .main-content {	
     max-width: 970px;
     min-width: 320px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     background-color: #F0FAFA;
     padding: 30px 0 0 0;
     overflow: hidden;
@@ -146,7 +155,7 @@ header {
 	flex-flow: row wrap;
 	justify-content: center;
 	width: 100%;
-    margin: 0 auto 50px auto;
+    margin: 20px auto 50px auto;
     height: 33px;
 }
 
@@ -182,223 +191,106 @@ header {
 	height: 12px;
 }
 
-/* for carousel */
-
-#carousel-wrapper {
-    position: relative;
-    height: 152px;
-    margin: 0 1% 20px 1%;
-    background-image: url("images/squared_metal.png");
-}
-#carousel-wrapper .ui-button, #carousel-wrapper .ui-icon {
-    padding: 0;
-}
-#container {
-    height: 142px;
-    margin: 5px 0;
-    overflow: hidden;
-    position: absolute;
-}
-#carousel {
-    width: 100%;
-    height: 142px;
-    overflow: hidden;
-}
-#carousel-prev-wrapper, #carousel-next-wrapper {
-    width: 22px;
-    height: 152px;
-    position: absolute;
-    padding-top: 26px;
-    background-color: #F0FAFA;
-}
-#carousel-prev-wrapper {
-    left: 0;
-}
-#carousel-next-wrapper {
-    right: 0;
-    padding-left: 4px;
-}
-#carousel-next, #carousel-prev {
-    width: 20px;
-    height: 100px !important;
-}
-#carousel-next .ui-icon, #carousel-prev .ui-icon {
-    position: absolute;
-    top: 50%;
-    margin-top: -8px;
-}
-#upload-buttons-wrapper {
-    width: 310px;
-    margin: 0 auto 30px auto;
-    height: 33px;
-    position: relative;
-}
-#upload-buttons-wrapper .ui-button-text, #toolbar .ui-button-text {
-    font-weight: bold;
-    padding-left: 1.8em;
-    text-transform: uppercase;
-}
-#upload-buttons-wrapper .ui-icon {
-    background-image: url(ui-theme/images/ui-icons_ffffff_256x240.png);
-}
-#upload-buttons-wrapper .ui-button {
-    height: 33px;
-}
-#pick-files, #reset-all {
-    font-size: 13px;
-    position: absolute;
-    top: 0;
-    width: 145px;
-}
-#pick-files {
-    left: 0;
-}
-#reset-all {
-    right: 0;
-}
-#main .ui-button-text {
-    line-height: 31px;
-    padding-top: 0;
-}
-#main .ui-button-text-icon-primary {
-    padding-top: 0;
-}
-#main .ui-button .ui-icon {
-    margin-top: 7px;
+.clear-icon {
+	width: 10px;
+	height: 10px;
+	margin-right: 5px;
 }
 
-/* for plupload */
+/*carousel*/
+.carousel {
+	height: 160px;
+}
+.elem-wrap {
+	max-width: 100%;
+	height: 160px;
+}
+.elem {
+	width: 44%;
+	height: 100px;
+	background-color: gray;
+	margin: auto;
+	position: relative;
+	top: 30px;
+}
 
-.plupload_file_wrapper {
-    height: 140px;
-    width: 146px;
-    margin: 0 auto;
-    padding: 6px 8px;
-    font-size: 12px;
-    font-weight: normal;
-    border-radius: 4px;
-    position: relative;
-}
-.plupload_file_wrapper > div {
-    cursor: move;
-}
-.plupload_file_wrapper div.plupload_file_button {
-    cursor: pointer !important;
-}
-.plupload_filelist li {
-    float: left;
-    display: block;
-}
-.plupload_file_name {
-    float: left;
-    overflow: hidden;
-    width: 100px;
-    height: 17px;
-}
-.plupload_file_action {
-    float: right;
-    width: 16px;
-    height: 16px;
-    margin: -1px -2px 0 0;
-}
-.plupload_file_action .plupload_file_icon {
-    width: 16px;
-    height: 16px;
-    cursor: pointer;
-}
-.plupload_clearer {
-    clear: both;
-}
-.plupload_file_status {
-    text-align: center;
+/*footer*/
+footer {
+
+    max-width: 970px;
+    min-width: 320px;
+    margin: auto;
+    color: #999999;
     font-size: 0.9em;
-    position: absolute;
-    z-index: 999;
-    bottom: 8px;
-    color: #333333;
-    width: 126px;
-    line-height: 17px;
-    font-weight: bold;
-    font-size: 11px;
-}
-.plupload_thumb_wrapper {
-    background: #FFFFFF url(/images/grid.png) repeat;
-    border: inherit;
-    overflow: hidden;
-    margin-top: 5px;
-}
-.plupload_thumb {
-    width: 126px;
-    height: 77px;
-    background-color: #FFFFFF;
-    position: relative;
-}
-.plupload_file_progress {
-    border: inherit;
-    border-radius: 3px 3px 3px 3px;
-    margin-top: 5px;
-    overflow: hidden;
-    width: auto;
-    background-color: #FFFFFF;
-}
-.plupload_file_progress_bar {
-    background-color: #FFDB84;
-    height: 18px;
-    width: 0;
-}
-#plupload_drop {
-    color: #C5C5C5;
-    font-size: 1.2em;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
-    position: absolute;
-    top: 62px;
-    z-index: 10;
-}
-.plupload_file_wrapper .ui-icon {
-    background-image: url(ui-theme/images/ui-icons_888888_256x240.png);
-}
-.plupload_thumb_wrapper {
-    background: #FFFFFF url(/images/grid.png) repeat;
-    border: inherit;
-}
-.plupload_thumb_extra {
-    text-align: center;
-    overflow: hidden;
-    color: #000000;
-    font-size: 30px;
-    font-weight: bold;
-    position: absolute;
-    top: 50px;
-    z-index: 50;
-    width: 126px;
-    opacity: 0.6;
-    text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
-}
-.ui-state-active .plupload_thumb_extra {
-    display: none;
-}
-.plupload_file_button {
-    display: none;
-    border: inherit;
-    border-radius: 3px 3px 3px 3px;
-    margin-top: 5px;
-    overflow: hidden;
-    width: auto;
-    background-color: #FFDB84;
-    line-height: 18px;
-    color: #333333;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: bold;
-    cursor: pointer;
-    letter-spacing: 1px;
-}
-.plupload_file_button:hover {
-    background-color: #FFCF5E;
-    color: #222222;
+    padding: 0 0 20px 0;
 }
 
-/*end of carousel*/
+#like-it {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #414141;
+}
+
+
+#footer-privacy {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* share */
+
+#share {
+    width: 300px;
+    margin: 10px auto 0 auto;
+    text-align: center;
+}
+#share .pop {
+    margin: 0 5px;
+}
+.share-bw {
+    background: url("images/social-icons.png") no-repeat scroll left top transparent;
+    display: inline-block;
+    width: 49px;
+    height: 49px;
+    line-height: 0;
+    margin: 0;
+}
+.share-bw-facebook {
+    background-position: -1px -1px;
+}
+.share-bw-facebook:hover {
+    background-position: -1px -51px;
+}
+.share-bw-twitter {
+    background-position: -50px -1px;
+}
+.share-bw-twitter:hover {
+    background-position: -50px -51px;
+}
+.share-bw-googleplus {
+    background-position: -99px -1px;
+}
+.share-bw-googleplus:hover {
+    background-position: -99px -51px;
+}
+.share-bw-stumbleupon {
+    background-position: -148px -1px;
+}
+.share-bw-stumbleupon:hover {
+    background-position: -148px -51px;
+}
+.share-bw-reddit {
+    background-position: -197px -1px;
+}
+.share-bw-reddit:hover {
+    background-position: -197px -51px;
+}
+.share-bw-vkontakte {
+    background-position: -246px -1px;
+}
+.share-bw-vkontakte:hover {
+    background-position: -246px -51px;
+}
+

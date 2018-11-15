@@ -3,12 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>PdftoDoc</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
 	
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="my-scripts.js"></script>
+    
 </head>
 <body>
 	<header>
@@ -40,74 +39,49 @@ ensuring better quality than many other converters.
             <button class="upload-button"><img class="upload-icon" src="images/upload-icon.png"></img> Upload Files</button>
             <button class="clear-button"><img class="clear-icon" src="images/clear-icon.png"></img> Clear Queue</button>
         </div>
-        
-        <!-- Bootstrap Carousel: -->
-        <div id="imageCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
-          <ol class="carousel-indicators">
-            <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#imageCarousel" data-slide-to="1"></li>
-            <li data-target="#imageCarousel" data-slide-to="2"></li>
-          </ol>
-             <div class="carousel-inner">
-               <div class="item active">
-                 <div class="row">
-                   <div class="col-md-4">
-                        <div class="elem-wrap">
-                            <div class="elem"></div>
-                        </div> 
-                   <!-- 
-                     <img src="https://1.bp.blogspot.com/-E8GdZQshD7I/WI1-yGMXseI/AAAAAAAACfs/ZndWplkyLpgVPO5IQ294pjxr9rq8YtqcwCLcB/s640/boot1.png" class="img-responsive" /> -->
-                   </div>
-                   <div class="col-md-4">
-                   <!-- 
-                     <img src="https://1.bp.blogspot.com/-E8GdZQshD7I/WI1-yGMXseI/AAAAAAAACfs/ZndWplkyLpgVPO5IQ294pjxr9rq8YtqcwCLcB/s640/boot1.png" class="img-responsive" /> -->
-                   </div>
-                   <div class="col-md-4">
-                   <!-- 
-                     <img src="https://1.bp.blogspot.com/-E8GdZQshD7I/WI1-yGMXseI/AAAAAAAACfs/ZndWplkyLpgVPO5IQ294pjxr9rq8YtqcwCLcB/s640/boot1.png" class="img-responsive" /> -->
-                   </div>
-                   
-                 </div>
-               </div>
-               <div class="item">
-                 <div class="row">
-                   <div class="col-md-4"><!-- 
-                     <img src="https://2.bp.blogspot.com/-hmUAa7DH5N4/WI2KJqMdhrI/AAAAAAAACf8/huv-RB55G_QpCI-9G-iA0JrS1pqCswEogCLcB/s640/boot2.png" class="img-responsive" /> -->
-                   </div>
-                   <div class="col-md-4"><!-- 
-                     <img src="https://2.bp.blogspot.com/-ZWboxYj_gz0/WInKMMQA_HI/AAAAAAAACe4/4ihHdvifuKYJNQElLULtivsCne9ZDbM3ACLcB/s640/di.png" class="img-responsive" /> -->
-                   </div>
-                   <div class="col-md-4"><!-- 
-                     <img src="https://1.bp.blogspot.com/-E8GdZQshD7I/WI1-yGMXseI/AAAAAAAACfs/ZndWplkyLpgVPO5IQ294pjxr9rq8YtqcwCLcB/s640/boot1.png" class="img-responsive" /> -->
-                   </div>
-                 </div>
-               </div>
-               <div class="item">
-                 <div class="row">
-                   <div class="col-md-4"><!-- 
-                     <img src="https://1.bp.blogspot.com/-E8GdZQshD7I/WI1-yGMXseI/AAAAAAAACfs/ZndWplkyLpgVPO5IQ294pjxr9rq8YtqcwCLcB/s640/boot2.png" class="img-responsive" /> -->
-                   </div>
-                   <div class="col-md-4"><!-- 
-                     <img src="https://1.bp.blogspot.com/-E8GdZQshD7I/WI1-yGMXseI/AAAAAAAACfs/ZndWplkyLpgVPO5IQ294pjxr9rq8YtqcwCLcB/s640/boot1.png" class="img-responsive" /> -->
-                   </div>
-                   <div class="col-md-4"><!-- 
-                     <img src="https://2.bp.blogspot.com/-ZWboxYj_gz0/WInKMMQA_HI/AAAAAAAACe4/4ihHdvifuKYJNQElLULtivsCne9ZDbM3ACLcB/s640/di.png" class="img-responsive" /> -->
-                   </div>
-                 </div>
-               </div>
-              </div>
-              <a class="left carousel-control" href="#imageCarousel" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#imageCarousel" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-              </a>
-         </div>
+                <!-- start of carousel -->
+             <div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="carousel slide multi-item-carousel" id="theCarousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/f44336/000000" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/e91e63/000000" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/9c27b0/000000" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/673ab7/000000" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/4caf50/000000" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" class="img-responsive"></a></div>
+          </div>
+          <!-- add  more items here -->
+          <!-- Example item start:  -->
+          
+          <div class="item">
+            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" class="img-responsive"></a></div>
+          </div>
+          
+          <!--  Example item end -->
+        </div>
+        <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+        <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+      </div>
+    </div>
+  </div>
+</div> <!-- end of carousel -->
 
-		<div class= "buttons-wrapper">
-    	   <button class="download-button"><img class="download-icon" src="images/download-icon.png"></img> Download All</button>
+
+		    <div class= "buttons-wrapper">
+    	    <button class="download-button"><img class="download-icon" src="images/download-icon.png"></img> Download All</button>
         </div>
         <div class="reclama-trei">
             <p>your ad goes here</p>
@@ -127,5 +101,9 @@ ensuring better quality than many other converters.
     </div>
     </footer>
 
+
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="my-scripts.js"></script>
 </html>

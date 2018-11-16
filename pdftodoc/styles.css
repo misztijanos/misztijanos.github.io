@@ -60,9 +60,8 @@ a {
     color: #0071B3;
     text-decoration: none;
 }
-a:hover, a:focus {
-    color: #018FE2;
-    text-decoration: underline;
+a:hover, a:focus, a:active {
+    text-decoration: none;
 }
 input:focus, select:focus, textarea:focus, button:focus {
     outline: none;
@@ -127,8 +126,65 @@ header {
     overflow: hidden;
     background-color: #bbb;
 }
-
 /*end of header styles*/
+
+/*navigation*/
+.navigation {
+    width: 100%;
+    max-width: 970px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    align-self: center;
+    background-color: white;
+}
+
+.navigation a {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 5px;
+    margin: 0 1px;
+    letter-spacing: .02em;  
+    color: #414141;
+    background-color: rgba(230, 230, 230, 0.4);
+    transition: all 0.3s;
+    border: 1px solid rgba(110, 110, 110, 0.5);
+    border-bottom: none;
+    border-radius: 2px;
+}
+
+.navigation a:hover {
+    background-color: rgb(228, 125, 105);
+    color: white;
+    border: 1px solid rgb(228, 125, 105);
+    border-bottom: none;
+}
+
+.navigation a:active { /*suggested styles for the active link*/
+    background-color: rgb(71, 164, 165);
+    color: white;
+    border: 1px solid rgb(71, 164, 165);
+    border-bottom: none;
+}
+
+
+@media all and (max-width: 955px) {
+    
+    .navigation a {
+        margin: 3px 6px;
+        border: none;
+        background-color: rgba(110, 110, 110, 0.2);
+    }
+    .navigation a:hover, .navigation a:active {
+        border: none;
+    }
+}
+
+/*end of navigation styles*/
+
 
 .reclama-doi, .reclama-trei {
 	display: block;
@@ -136,6 +192,10 @@ header {
 	height: 90px;
 	margin: auto;
 	background-color: #bbb;
+}
+
+.reclama-trei {
+    margin-bottom: 20px;
 }
 
 .main-content {	
@@ -237,27 +297,7 @@ header {
 .multi-item-carousel .carouse-control.right {
   background-image: none;
 }
-/*body {
-  background: #333;
-  color: #ddd;
 
-/*old carousel*/
-/*.carousel {
-	height: 160px;
-}
-.elem-wrap {
-	max-width: 100%;
-	height: 160px;
-}
-.elem {
-	width: 44%;
-	height: 100px;
-	background-color: gray;
-	margin: auto;
-	position: relative;
-	top: 30px;
-}
-*/
 /*footer*/
 footer {
 
@@ -358,4 +398,81 @@ footer {
         margin-right: auto;
         margin-bottom: 25px;
     }
+}
+
+/*widget styles*/
+
+.widget {
+    position: relative;
+    width: 146px;
+    height: 140px;
+    border: 1px solid rgba(110, 110, 110, 0.5);
+    font-size: 12px;
+    font-weight: normal;
+    border-radius: 4px;
+}
+
+.widget .top-right-button {
+    float: right;
+    width: 14px;
+    opacity: 0.5;
+    margin: 6px 6px 0 0;
+    cursor: pointer;
+}
+
+.widget .top-right-button:hover {
+    opacity: 1;
+}
+
+.widget-finished .widget-title {
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+.widget-main {
+    position: absolute;
+    border: inherit;
+    border-radius: inherit;
+    background-color: #fff;
+    width: 120px;
+    height: 70px;
+    top: 35px;
+    left: 13px;
+}
+.widget-main-overlay {
+    position: absolute;
+    border: inherit;
+    border-radius: inherit;
+    background: rgba(110, 110, 110, 0.2) url("images/widget-download.png") no-repeat center;
+    background-size: 120px 70px;
+    width: 120px;
+    height: 70px;
+    top: 35px;
+    left: 13px;
+    opacity: 0;
+    z-index: 0;
+    cursor: pointer;
+}
+.widget-main-overlay:hover {
+    opacity: 0.5;
+}
+
+.widget-bottom {
+    position: absolute;
+    top: 112px;
+    left: 13px;
+    border: inherit;
+    border-radius: inherit;
+    width: 120px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #FFDB84;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.widget-bottom:hover {
+    opacity: 1;
 }

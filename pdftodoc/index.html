@@ -30,6 +30,18 @@ ensuring better quality than many other converters.
 		</div>
 	
 	</header>
+  <ul class="navigation">
+    <li><a href="/">PDF to DOC</a></li>
+    <li><a href="/">PDF to DOCX</a></li>
+    <li><a href="/">PDF to text</a></li>
+    <li><a href="/">PDF to JPG</a></li>
+    <li><a href="/">PDF to PNG</a></li>
+    <li><a href="/">XPS to PDF</a></li>
+    <li><a href="/">PDF Compressor</a></li>
+    <li><a href="/">Combine PDF</a></li>
+    <li><a href="/">JPG to PDF</a></li>
+    <li><a href="/">Any to PDF</a></li>
+  </ul>
 
 	<div class="main-content">
         <div class="reclama-doi">

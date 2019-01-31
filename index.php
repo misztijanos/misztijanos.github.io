@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133588851-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-133588851-1');
+</script>
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Miszti János' Portfolio</title>
@@ -73,16 +83,20 @@
 	<section class="testimonials" id="testimonials">    
     <h1>Testimonials</h1>
     <blockquote>
-    	<p>James was extremely professional. He gave us regular updates and delivered work as promised and went beyond in ensuring a smooth transition of the website to us. We will definitely be contacting him if we need any website development done!.</p>
-    	<footer>Bryan, <a href="https://www.freelancer.com/u/CobyAirport">CobyAirport</a></footer>
+    	<p>Janos did a great job. His work in css and html is very clean and ordered. Communication was very good.</p>
+    	<footer>Dorin Oltean <a href="https://www.freelancer.com/u/dorinoltean">Rubrikk Group</a></footer>
+    </blockquote>
+    <blockquote>
+    	<p>"James did a great job on this project. It wasn't even necessary to give him server access which I appreciate as an admin. Solid work."</p>
+    	<footer>Bryan <a href="https://www.freelancer.com/u/rockhost">Rockhost</a></footer>
     </blockquote>
     <blockquote>
     	<p>Good freelancer A+++. I hope to work with him another time.</p>
-    	<footer>Luca Fierro, <a href="https://www.netcom.it/">NetCom</a></footer>
+    	<footer>Luca Fierro<a href="https://www.netcom.it/">NetCom</a></footer>
     </blockquote>
     <blockquote>
     	<p>Working with János was great. He is an incredibly talented developer, but what really makes him stand out is his work ethic and steady approach. Time after time, and without us asking, he added enhancements and improvements that resulted in a better end product for us and our clients.</p>
-    	<footer>Jonathan Ellison, <a href="https://wirebox.co.uk/">WireBox</a></footer>
+    	<footer>Jonathan Ellison <a href="https://wirebox.co.uk/">WireBox</a></footer>
     </blockquote>
 	</section>
 

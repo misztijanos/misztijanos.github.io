@@ -521,6 +521,9 @@ header {
 	border: 2px solid gray;
 }
 
+ul.about-list {
+	max-width: 380px;
+}
 .about-list li{
 	padding-bottom: .5em;
 }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Music</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+</head>
+<body>
+	<audio id="player">
+		<source id="source"">
+			Audio Not Supported
+	</audio>
+
+	<div id="box">
+    <div id="top">
+      
+      <div class="volume">
+        <input type="range" id="volumeSlider" orient="vertical" min="0" max="1" step="0.01">
+      </div><!--volume-->
+      
+      <div id="screen">
+        <div id="currentlyPlayingSong"></div>
+        <div id="currentSong"></div>
+ 
+        <audio id="player" ontimeupdate="updateProgress()"> 
+          <source id="source">Audio not supported
+        </audio>
+        <progress id="progress" value="0" max="100"></progress>       
+        
+      </div>
+       
+    </div><!--top-->  
+   
+    <div class="controls">
+      <i class="far fa-play-circle fa-5x" id="playButton" onclick='playAudio()'></i>
+      <i class="far fa-pause-circle fa-5x" id="pauseButton" onclick='pauseAudio()'></i>
+    </div>
+    
+   
+    <div id="playList">Playlist:</div> 
+    <div id="songList"></div>
+    
+  </div><!--box-->
+	
+	<script src="script.js"></script>
+</body>
+</html>
+<!-- 
+<ol>
+		<li>Rilo Kiley - So Long.mp3</li>
+		<li>Rilo Kiley - Spectacular Views.mp3</li>
+		<li>Rilo Kiley - Capturing Moods</li>
+		<li>QotSA - Head Like A Haunted House.mp3</li>
+		<li>IU - Love of B.mp3</li>
+	</ol> -->

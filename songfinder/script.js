@@ -4,7 +4,7 @@ const displaySearchResults = (term) => {
 
 	const searchUrl = `https://itunes.apple.com/search?term=${term.toLowerCase().replace(/ /g,"+")}`;
 	console.log(searchUrl);
-	fetch(searchUrl).then((response) => response.json())
+	fetch(searchUrl, { mode: 'no-cors'}).then((response) => response.json())
 	.then((data) => {
 		let songList = document.getElementById("songs");
 		if (!songList){

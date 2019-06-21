@@ -108,6 +108,27 @@ header {
 .navigation .not-last:hover {
 	transform: scale(1.15);
 }
+
+
+.navigation .last:hover, .navigation .not-last:hover {
+	/*mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);*/
+  	mask-size: 200%;
+  	animation: shine 1.2s forwards;
+}
+@keyframes shine {
+  	from {
+  		mask-image: linear-gradient(-75deg, rgba(0,0,0,.4) 30%, #000 50%, rgba(0,0,0,.4) 70%);
+    	mask-position: 150%;
+    	color: white;
+  	}
+
+  	to {
+  		mask-image: linear-gradient(-75deg, rgba(0,0,0,1) 30%, #000 50%, rgba(0,0,0,1) 70%);
+    	mask-position: -50%;
+    	color: #c1060e;
+  	}
+}
+
 .navigation .not-last:active {
 	transform: scale(1.30);
 }
@@ -124,6 +145,105 @@ header {
 .navigation .last:active {
 	background-color: rgba(30, 30, 30, 0.6);
 	transform: scale(1.25);
+}
+
+/*dropdown styles*/
+.dropdown {
+	position: absolute;
+	list-style: none;
+}
+.dropdown li {
+	color: white;
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	opacity: 0;
+}
+
+.dropdown.active li {
+	display: block;
+    color: white;
+    background: ;
+	transition: all .4s ease-in-out;
+}
+.dropdown.active li:hover {
+	color: #c1060e;
+}
+
+
+.first-dd {
+	top: 40px;
+	left: -110px;
+}
+.second-dd {
+	top: 80px;
+	left: -110px;
+}
+.third-dd {
+	top: 120px;
+	left: -110px;
+}
+
+.portf.active {
+	z-index: 100;
+	cursor: pointer;
+	color: #c1060e;
+}
+.portf:hover {
+	cursor: pointer;
+}
+
+.dropdown.active .first-dd {
+	display: block;
+	animation: .3s drop-portf-one ease-in-out forwards;
+}
+@keyframes drop-portf-one {
+	0% {top: 10px; left: -110px; opacity: 0;}
+	100% { top: 40px; left: -110px; opacity:1; }
+}
+.dropdown.inactive .first-dd {
+	animation: .7s drop-portf-back-one ease-in-out;
+}
+@keyframes drop-portf-back-one {
+	0% { top: 40px; left: -110px; opacity:1; }
+	70% { top: 40px; left: -110px; opacity:1; }
+	100% {top: 10px; left: -110px; opacity: 0;}
+}
+
+.dropdown.active .second-dd {
+	display: block;
+	animation: .3s drop-portf-two ease-in-out forwards;
+	animation-delay: .2s;
+}
+@keyframes drop-portf-two {
+	0% {top: 50px; left: -110px; opacity: 0;}
+	100% { top: 80px; left: -110px; opacity:1; }
+}
+.dropdown.inactive .second-dd {
+	animation: .5s drop-portf-back-two ease-in-out;
+}
+@keyframes drop-portf-back-two {
+	0% { top: 80px; left: -110px; opacity:1; }
+	30% { top: 80px; left: -110px; opacity:1; }
+	100% {top: 50px; left: -110px; opacity: 0;}
+}
+
+.dropdown.active .third-dd {
+	display: block;
+	animation: .3s drop-portf-three ease-in-out forwards;
+	animation-delay: .5s;
+}
+@keyframes drop-portf-three {
+	0% {top: 80px; left: -110px; opacity: 0;}
+	100% { top: 120px; left: -110px; opacity:1; }
+}
+.dropdown.inactive .third-dd {
+	animation: .3s drop-portf-back-three ease-in-out forwards;
+}
+@keyframes drop-portf-back-three {
+	0% { top: 120px; left: -110px; opacity:1; }
+	100% {top: 80px; left: -110px; opacity: 0;}
+	
 }
 
 @media all and (max-width: 950px) {
@@ -153,9 +273,7 @@ header {
 
 .banner-container {
 	max-width: 1160px;
-	margin:0 auto;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin: 24px auto;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
@@ -212,6 +330,62 @@ header {
 
 /*end of banner styles*/
 
+/*scrollers styles*/
+.scroller {
+	position:relative; /* z-index only works on positioned elements*/
+	background: #2098D1;
+	z-index: 1;
+	height: 50px;
+	width: 100%;
+	margin: 0;
+	padding: 15px 0 10px 0;
+	text-align: center;
+}
+#javascript-katas, #css3-examples {
+	padding-top: 100px;
+}
+.button-naira {
+	background: #0078B1;
+	letter-spacing: 1.2px;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	line-height: 44px;
+	display: block;
+	width: 240px;
+	height: 44px;
+	border: 3px solid;
+	border-radius: 5px;
+	vertical-align: middle;
+	margin: 0  0 0 auto;
+	padding: 0;
+	overflow: hidden;
+	transition: all 0.3s ease-in-out;
+	position: relative;
+	left: 5px;
+}
+.button-naira:hover i.icon-naira, .button-naira:active i.icon-naira {
+	display: block;
+}
+.button-naira:hover, .button-naira:active {
+	background-color: #c1060e;
+	border-color: #c1060e;
+	opacity: .7;
+}
+i.icon-naira {
+	font-size: 44px;
+	width: 100%;
+	height: 100%;
+	display: none;
+	line-height: 44px;
+	margin: 0;
+	padding: 0;
+	background-color: none;
+	color: white;
+}
+
+/*end of scrollers styles*/
+
 /*portfolio:*/
 
 .port-container {
@@ -233,6 +407,14 @@ header {
 	width: 200px;
 	align-self: center;
 	transition: transform 0.4s;
+}
+
+.codepen img{
+	width: 300px;
+}
+.kata img {
+	width: 100%;
+	height: 100%;
 }
 
 .port-item:hover > img, .port-item:active > img {
@@ -266,6 +448,10 @@ header {
 .sonia {background-color: white;}
 .janos {background-color: #2098D1;}
 .vps {background-color: rgb(15, 15, 15);}
+.sunrise {	background-color: #272c34;}
+.profile {background-color: #264057;}
+.all-pens {	background-color: #c1060e;}
+.kata1 {background-color: rgb(35, 35, 35);}
 /*end of portfolio styles*/
 
 .featured {
@@ -590,4 +776,17 @@ ul.about-list {
 
 .hire-link img {
 	width: 100%;
+}
+
+/*codepen about styles*/
+.cp_embed_wrapper{
+	margin: 10px auto;
+}
+
+@media all and (min-width: 700px) {
+	.cp_embed_wrapper{
+	margin: 10px auto 30px auto;
+	width: 80%;
+}
+
 }

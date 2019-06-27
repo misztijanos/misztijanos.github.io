@@ -10,13 +10,14 @@
 
   gtag('config', 'UA-133588851-1');
 </script>
-
+	<!-- <script src="https://kit.fontawesome.com/f01d56b8ce.js"></script> -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Miszti János' Portfolio</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet"> 
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
 	<header>
@@ -28,7 +29,12 @@
 		<ul class="navigation">
 			<li><a class="not-last" href="index.html">Home</a></li>
 			<li><a class="not-last" href="about.html">About</a></li>
-			<li><a class="not-last" href="index.html#port-container">Portfolio</a></li>
+			<li class="portf" id="portf"><a class="not-last" id="portf-anchor">Portfolio</a></li>
+			<ul class="dropdown" id="dropdown">
+				<li class="first-dd"><a href="index.html#port-container">Freelance work</a></li>
+				<li class="second-dd"><a href="index.html#css3-examples">CSS3 Examples</a></li>
+				<li class="third-dd"><a href="index.html#javascript-katas">Javascript Katas</a></li>
+			</ul>
 			<li><a class="not-last" href="index.html#testimonials">Testimonials</a></li>
 			<li><a class="not-last" href="#">Blog</a></li>
 			<li><a class="last" href="janos-hire.html">Hire János</a></li>
@@ -42,32 +48,76 @@
 		</section>
 		<img class="face" src="images/face.png" alt="face"></img>
 	</div>
-
+	<div class="scroller" id="freelance-work">
+		<a class="button-naira" href="index.html#freelance-work"><i class="icon-naira fa fa-chevron-down"></i><span>Freelance work</span></a>
+	</div>
 	<section class="port-container" id="port-container">
-				<a href="http://www.sonialiao.com/" class="port-item sonia">
-			<img src="images/port/sonia-logo.png" alt="Sonia Liao"></img>
+		<a href="comic-about.html" class="port-item comic">
+			<img src="images/port/comic-logo2.png" alt="Comic Flix"></img>
 			<p class="slide-up">HTML5, CSS3, Responsive, Javascript</p>
-		</a>
-		<a href="croatia-about.html" class="port-item croatia">
-			<img src="images/port/croatia-logo.png" alt="Vancouver Pet Sitting"></img>
-			<p class="slide-up">HTML5, CSS3, Responsive, WordPress, Javascript</p>
 		</a>
 		<a href="famtrav-about.html" class="port-item famtrav">
 			<img src="images/port/famtrav-logo.png" alt="Family Travel Adventure"></img>
 			<p class="slide-up">WordPress, SQL, PHP, HTML5, CSS3, Javascript</p>
 		</a>
-				<a href="comic-about.html" class="port-item comic">
-			<img src="images/port/comic-logo2.png" alt="Vancouver Pet Sitting"></img>
-			<p class="slide-up">HTML5, CSS3, Responsive, Javascript</p>
-		</a>
-		<a href="janos-about.html" class="port-item janos">
-			<img src="images/port/janos-logo.png" alt="Miszti Janos Homepage"></img>
-			<p class="slide-up">HTML5, CSS3, Photoshop, Responsive, no-script</p>
-		</a>
 		<a href="vps-about.html" class="port-item vps">
 		<!--vps is a unique class, to allow us to pick the right background color in css -->
 			<img src="images/port/vps-logo.png" alt="Vancouver Pet Sitting"></img>
 			<p class="slide-up">JQuery, Bootstrap, PHP, HTML5, CSS3</p>
+		</a>				
+		<a href="http://www.sonialiao.com/" class="port-item sonia">
+			<img src="images/port/sonia-logo.png" alt="Sonia Liao"></img>
+			<p class="slide-up">HTML5, CSS3, Responsive, Javascript</p>
+		</a><!-- 
+		<a href="croatia-about.html" class="port-item croatia">
+			<img src="images/port/croatia-logo.png" alt="Vancouver Pet Sitting"></img>
+			<p class="slide-up">HTML5, CSS3, Responsive, WordPress, Javascript</p>
+		</a> -->
+		<a href="janos-about.html" class="port-item janos">
+			<img src="images/port/janos-logo.png" alt="Miszti Janos Homepage"></img>
+			<p class="slide-up">HTML5, CSS3, Photoshop, Responsive, no-script</p>
+		</a>
+		<a href="https://www.freelancer.com/u/BlackTurtle" class="port-item freelancer">
+		<!--vps is a unique class, to allow us to pick the right background color in css -->
+			<img src="images/port/captured.gif" alt="freelancer.com"></img>
+			<p class="slide-up">Check out my Freelancer.com reviews</p>
+		</a>
+	</section>
+
+	<div class="scroller" id="css3-examples">
+		<a class="button-naira" href="index.html#css3-examples"><i class="icon-naira fa fa-chevron-down"></i><span>CSS3 Examples</span></a>
+	</div>
+	<section class="port-container" id="port-container">
+		<a href="https://codepen.io/stansfield/pen/pmKwNJ" class="port-item codepen sunrise">
+			<img src="images/port/sunrise.gif" alt="sunrise"></img>
+			<p class="slide-up">HTML5, CSS3, animation</p>
+		</a>
+		<a href="https://codepen.io/stansfield/pen/KLOEej" class="port-item codepen profile">
+			<img src="images/port/profile.gif" alt="profile"></img>
+			<p class="slide-up">HTML5, CSS3, design, animation</p>
+		</a>
+		<a href="https://codepen.io/stansfield/pens/public/" class="port-item codepen all-pens">
+			<img src="images/port/all-pens.gif" alt="all pens"></img>
+			<p class="slide-up">Check out all my pens</p>
+		</a>
+	</section>
+	
+
+	<div class="scroller" id="javascript-katas">
+		<a class="button-naira" href="index.html#javascript-katas"><i class="icon-naira fa fa-chevron-down"></i><span>Javascript katas</span></a>
+	</div>
+	<section class="port-container" id="port-container">
+		<a href="https://www.codewars.com/kata/sat-nav-directions/solutions/javascript/" class="port-item kata kata1">
+			<img src="images/port/kata1.gif" alt="first kata"></img>
+			<p class="slide-up">Javascript fundamentals, complex problem solving</p>
+		</a>
+		<a href="https://www.codewars.com/kata/reviews/553a8bb91e0399d6f70001b9/groups/5d0df7bddb3e840001e177c6" class="port-item kata kata2">
+			<img src="images/port/kata2.gif" alt="second kata"></img>
+			<p class="slide-up">Javascript, regular expressions</p>
+		</a>
+		<a href="https://www.codewars.com/users/misztijanos/completed" class="port-item kata kata3">
+			<img src="images/port/kata3.gif" alt="all kata"></img>
+			<p class="slide-up">Check out all my katas</p>
 		</a>
 	</section>
 	
@@ -100,6 +150,7 @@
     </blockquote>
 	</section>
 
-	<section class="footer">Copyright © 2018 <a href="index.html">Miszti János</a></section>
+	<section class="footer">Copyright © 2019 <a href="index.html">Miszti János</a></section>
 </body>
+<script src="my-scripts.js"></script>
 </html>

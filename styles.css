@@ -265,6 +265,9 @@ header {
 	.name {
 	font-size: 24px;
 	}
+	.dropdown {
+		display: none;
+	}
 }
 
 /*end of styles for the header*/
@@ -340,6 +343,7 @@ header {
 	margin: 0;
 	padding: 15px 0 10px 0;
 	text-align: center;
+	overflow: hidden;
 }
 #javascript-katas, #css3-examples {
 	padding-top: 100px;
@@ -448,10 +452,15 @@ i.icon-naira {
 .sonia {background-color: white;}
 .janos {background-color: #2098D1;}
 .vps {background-color: rgb(15, 15, 15);}
+.freelancer { background-color: #c1060e;}
+.freelancer img {width:100%;}
 .sunrise {	background-color: #272c34;}
 .profile {background-color: #264057;}
 .all-pens {	background-color: #c1060e;}
-.kata1 {background-color: rgb(35, 35, 35);}
+.kata1 {background-color: rgb(200, 200, 200);}
+.kata2 {background-color: black;}
+.kata2 img{ width: 100%; height: 65%; }
+.kata3 {	background-color: #c1060e;}
 /*end of portfolio styles*/
 
 .featured {
@@ -472,7 +481,7 @@ i.icon-naira {
 }
 
 .featured h1{
-	padding: 60px 0 0 0;
+	padding: 90px 0 30px 0;
 	font-size: 2.2em;
 	font-weight: bold;
 }

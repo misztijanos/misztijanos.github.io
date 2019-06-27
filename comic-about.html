@@ -10,7 +10,7 @@
 
   gtag('config', 'UA-133588851-1');
 </script>
-
+	<!-- <script src="https://kit.fontawesome.com/f01d56b8ce.js"></script> -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Miszti János' Portfolio</title>
@@ -29,7 +29,12 @@
 		<ul class="navigation">
 			<li><a class="not-last" href="index.html">Home</a></li>
 			<li><a class="not-last" href="about.html">About</a></li>
-			<li><a class="not-last" href="index.html#port-container">Portfolio</a></li>
+			<li class="portf" id="portf"><a class="not-last" id="portf-anchor">Portfolio</a></li>
+			<ul class="dropdown" id="dropdown">
+				<li class="first-dd"><a href="index.html#port-container">Freelance work</a></li>
+				<li class="second-dd"><a href="index.html#css3-examples">CSS3 Examples</a></li>
+				<li class="third-dd"><a href="index.html#javascript-katas">Javascript Katas</a></li>
+			</ul>
 			<li><a class="not-last" href="index.html#testimonials">Testimonials</a></li>
 			<li><a class="not-last" href="#">Blog</a></li>
 			<li><a class="last" href="janos-hire.html">Hire János</a></li>
@@ -48,7 +53,7 @@
 			<div class="overlay"></div>
 		</a>
 		<h4>An early concept for the ComicFlix website viewed in large and small layouts</h4>
-		<a class="button" href="ComicFlix/index.php">
+		<a class="button" href="ComicFlix/index.php" target="_blank">
 			View Website <i class="fa fa-chevron-circle-right"></i>
 		</a>
 	</section>
@@ -82,4 +87,5 @@
 	
 	<section class="footer">Copyright © 2018 <a href="/">Miszti János</a></section>
 </body>
+<script src="my-scripts.js"></script>
 </html>

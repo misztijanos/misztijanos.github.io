@@ -10,16 +10,16 @@
 
   gtag('config', 'UA-133588851-1');
 </script>
-
+	<!-- <script src="https://kit.fontawesome.com/f01d56b8ce.js"></script> -->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Miszti János' Portfolio</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet"> 
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
-	
 	<header>
 		<!--  -->
 		<div class="name-container">
@@ -29,7 +29,12 @@
 		<ul class="navigation">
 			<li><a class="not-last" href="index.html">Home</a></li>
 			<li><a class="not-last" href="about.html">About</a></li>
-			<li><a class="not-last" href="index.html#port-container">Portfolio</a></li>
+			<li class="portf" id="portf"><a class="not-last" id="portf-anchor">Portfolio</a></li>
+			<ul class="dropdown" id="dropdown">
+				<li class="first-dd"><a href="index.html#port-container">Freelance work</a></li>
+				<li class="second-dd"><a href="index.html#css3-examples">CSS3 Examples</a></li>
+				<li class="third-dd"><a href="index.html#javascript-katas">Javascript Katas</a></li>
+			</ul>
 			<li><a class="not-last" href="index.html#testimonials">Testimonials</a></li>
 			<li><a class="not-last" href="#">Blog</a></li>
 			<li><a class="last" href="janos-hire.html">Hire János</a></li>
@@ -44,7 +49,7 @@
 
 	<section class="hire">
 		<p>You can check my Freelancer.com profile, all the past projects I was hired for through that site, and all the reviews my employers left. You can also hire me through Freelancer:</p>
-		<a class="hire-link" href="https://www.freelancer.com/hireme/BlackTurtle"><img src="images/freelancer-card.png" alt="logo"> </a>
+		<a class="hire-link" href="https://www.freelancer.com/hireme/BlackTurtle" target="_blank"><img src="images/freelancer-card.png" alt="logo"> </a>
 		<div class="hire-container">
 			<div class="hire-element">
 				<p>You can send me an e-mail by clicking on the magic mailbox:</p>
@@ -60,4 +65,5 @@
 
 	<section class="footer">Copyright © 2018 <a href="/">Miszti János</a></section>
 </body>
+<script src="my-scripts.js"></script>
 </html>

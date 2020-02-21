@@ -43,7 +43,7 @@ const displaySearchResults = (term) => {
 
 		//change the page to display the songlist
 		document.getElementsByTagName("header")[0].setAttribute("class", "sticky");
-	})
+	});
 };
 
 const handleSearchButton = () => {

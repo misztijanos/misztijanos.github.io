@@ -1,273 +1,344 @@
-@-ms-viewport{
-    width: device-width;
+@-ms-viewport {
+  width: device-width;
 }
 
 a {
-	color: inherit; 
-    text-decoration: inherit; 
+  color: inherit;
+  text-decoration: inherit;
 }
 html {
   scroll-behavior: smooth;
 }
 
 body {
-	margin: 0;
-	background-color: #2098D1;
-	font-family: Lato, sans-serif;
-	color: white;
-	box-sizing: border-box;
+  max-width: 1390px;
+  margin: 0 auto;
+  background-color: #2098d1;
+  font-family: Lato, sans-serif;
+  color: white;
+  box-sizing: border-box;
 }
 
-
 .clear-both {
-	clear: both;
+  clear: both;
 }
 
 header {
-	max-width: 1160px;
-	margin: auto;
-	font-weight: bold;
-	text-transform: uppercase;
+  max-width: 1390px;
+  margin: auto;
+  font-weight: bold;
+  text-transform: uppercase;
 
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .logo {
-	height: 4em;
-	align-self: center;
-	margin: 0;
-	padding: 0;
-	margin-right: 10px;
+  height: 4em;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
 }
 
 .name-container {
-	width: 20em;
-	margin: 20px 0 20px 20px;
-	display: flex;
-	justify-content: center;
+  width: 20em;
+  margin: 20px 0 20px 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .name {
-	font-size: 28px;
-	align-self: center;
-	/**/
-	padding: 0 4px 0 0;
-	letter-spacing: .10em;
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
-  	border-right: .15em solid white; /* The typwriter cursor ...color doesn't matter*/
-  	white-space: nowrap; /* Keeps the content on a single line */
-  	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  	animation: 
-    typing 3s steps(25, end),
-    blink-caret .75s step-end infinite;
+  font-size: 28px;
+  align-self: center;
+  /**/
+  padding: 0 4px 0 0;
+  letter-spacing: 0.1em;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid white; /* The typwriter cursor ...color doesn't matter*/
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: typing 3s steps(25, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 8em }
+  from {
+    width: 0;
+  }
+  to {
+    width: 8em;
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #e4b7b7; }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #e4b7b7;
+  }
   /*
   other color options for the cursor (colors from the logo): 
-		#1e1e1e 43.7 % Nero (Black)
-		#c1060e 30.6 % Venetian Red (Red)
-		#e4b7b7 6.9 % Cavern Pink (Pink)
-		#b4b4b4 6.4 % Loblolly (Grey)
-		#5a5a5a 5.9 % Bright Grey (Grey)
-		#ca4e50 3.8 % Fuzzy Wuzzy Brown (Brown)
-		#db7d7e 2.6 % Sea Pink (Pink) */
+    #1e1e1e 43.7 % Nero (Black)
+    #c1060e 30.6 % Venetian Red (Red)
+    #e4b7b7 6.9 % Cavern Pink (Pink)
+    #b4b4b4 6.4 % Loblolly (Grey)
+    #5a5a5a 5.9 % Bright Grey (Grey)
+    #ca4e50 3.8 % Fuzzy Wuzzy Brown (Brown)
+    #db7d7e 2.6 % Sea Pink (Pink) */
 }
-	
+
 .navigation {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	list-style: none;
-	margin-right: 20px;
-	align-self: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+  margin-right: 20px;
+  align-self: center;
 }
 
 .navigation a {
-	display: block;
-	font-size: 13px;
-	padding: 15px 12px;
-	letter-spacing: .02em;	
+  display: block;
+  font-size: 13px;
+  padding: 15px 12px;
+  letter-spacing: 0.02em;
 }
 
 .navigation .not-last {
-	transition: transform 0.3s;
+  transition: transform 0.3s;
 }
 
 .navigation .not-last:hover {
-	transform: scale(1.15);
+  transform: scale(1.15);
 }
 
-
-.navigation .last:hover, .navigation .not-last:hover {
-	/*mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);*/
-  	mask-size: 200%;
-  	animation: shine 1.2s forwards;
+.navigation .last:hover,
+.navigation .not-last:hover {
+  /*mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);*/
+  mask-size: 200%;
+  animation: shine 1.2s forwards;
 }
 @keyframes shine {
-  	from {
-  		mask-image: linear-gradient(-75deg, rgba(0,0,0,.4) 30%, #000 50%, rgba(0,0,0,.4) 70%);
-    	mask-position: 150%;
-    	color: white;
-  	}
+  from {
+    mask-image: linear-gradient(
+      -75deg,
+      rgba(0, 0, 0, 0.4) 30%,
+      #000 50%,
+      rgba(0, 0, 0, 0.4) 70%
+    );
+    mask-position: 150%;
+    color: white;
+  }
 
-  	to {
-  		mask-image: linear-gradient(-75deg, rgba(0,0,0,1) 30%, #000 50%, rgba(0,0,0,1) 70%);
-    	mask-position: -50%;
-    	color: #c1060e;
-  	}
+  to {
+    mask-image: linear-gradient(
+      -75deg,
+      rgba(0, 0, 0, 1) 30%,
+      #000 50%,
+      rgba(0, 0, 0, 1) 70%
+    );
+    mask-position: -50%;
+    color: #c1060e;
+  }
 }
 
 .navigation .not-last:active {
-	transform: scale(1.30);
+  transform: scale(1.3);
 }
 
 .navigation .last {
-	background-color: rgba(30, 30, 30, 0.4);
-	transition: all 0.3s;
+  background-color: rgba(30, 30, 30, 0.4);
+  transition: all 0.3s;
 }
 
 .navigation .last:hover {
-	background-color: rgba(30, 30, 30, 0.6);
-	transform: scale(1.15);
+  background-color: rgba(30, 30, 30, 0.6);
+  transform: scale(1.15);
 }
 .navigation .last:active {
-	background-color: rgba(30, 30, 30, 0.6);
-	transform: scale(1.25);
+  background-color: rgba(30, 30, 30, 0.6);
+  transform: scale(1.25);
 }
 
 /*dropdown styles*/
 .dropdown {
-	position: absolute;
-	list-style: none;
+  position: absolute;
+  list-style: none;
 }
 .dropdown li {
-	color: white;
-	position: absolute;
-	width: 150px;
-	height: 30px;
-	opacity: 0;
+  color: white;
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  opacity: 0;
 }
 
 .dropdown.active li {
-	display: block;
-    color: white;
-    background: ;
-	transition: all .4s ease-in-out;
+  display: block;
+  color: white;
+  background: ;
+  transition: all 0.4s ease-in-out;
 }
 .dropdown.active li:hover {
-	color: #c1060e;
+  color: #c1060e;
 }
-
 
 .first-dd {
-	top: 40px;
-	left: -110px;
+  top: 40px;
+  left: -110px;
 }
 .second-dd {
-	top: 80px;
-	left: -110px;
+  top: 80px;
+  left: -110px;
 }
 .third-dd {
-	top: 120px;
-	left: -110px;
+  top: 120px;
+  left: -110px;
 }
 
 .portf.active {
-	z-index: 100;
-	cursor: pointer;
-	color: #c1060e;
+  z-index: 100;
+  cursor: pointer;
+  color: #c1060e;
 }
 .portf:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .dropdown.active .first-dd {
-	display: block;
-	animation: .3s drop-portf-one ease-in-out forwards;
+  display: block;
+  animation: 0.3s drop-portf-one ease-in-out forwards;
 }
 @keyframes drop-portf-one {
-	0% {top: 10px; left: -110px; opacity: 0;}
-	100% { top: 40px; left: -110px; opacity:1; }
+  0% {
+    top: 10px;
+    left: -110px;
+    opacity: 0;
+  }
+  100% {
+    top: 40px;
+    left: -110px;
+    opacity: 1;
+  }
 }
 .dropdown.inactive .first-dd {
-	animation: .7s drop-portf-back-one ease-in-out;
+  animation: 0.7s drop-portf-back-one ease-in-out;
 }
 @keyframes drop-portf-back-one {
-	0% { top: 40px; left: -110px; opacity:1; }
-	70% { top: 40px; left: -110px; opacity:1; }
-	100% {top: 10px; left: -110px; opacity: 0;}
+  0% {
+    top: 40px;
+    left: -110px;
+    opacity: 1;
+  }
+  70% {
+    top: 40px;
+    left: -110px;
+    opacity: 1;
+  }
+  100% {
+    top: 10px;
+    left: -110px;
+    opacity: 0;
+  }
 }
 
 .dropdown.active .second-dd {
-	display: block;
-	animation: .3s drop-portf-two ease-in-out forwards;
-	animation-delay: .2s;
+  display: block;
+  animation: 0.3s drop-portf-two ease-in-out forwards;
+  animation-delay: 0.2s;
 }
 @keyframes drop-portf-two {
-	0% {top: 50px; left: -110px; opacity: 0;}
-	100% { top: 80px; left: -110px; opacity:1; }
+  0% {
+    top: 50px;
+    left: -110px;
+    opacity: 0;
+  }
+  100% {
+    top: 80px;
+    left: -110px;
+    opacity: 1;
+  }
 }
 .dropdown.inactive .second-dd {
-	animation: .5s drop-portf-back-two ease-in-out;
+  animation: 0.5s drop-portf-back-two ease-in-out;
 }
 @keyframes drop-portf-back-two {
-	0% { top: 80px; left: -110px; opacity:1; }
-	30% { top: 80px; left: -110px; opacity:1; }
-	100% {top: 50px; left: -110px; opacity: 0;}
+  0% {
+    top: 80px;
+    left: -110px;
+    opacity: 1;
+  }
+  30% {
+    top: 80px;
+    left: -110px;
+    opacity: 1;
+  }
+  100% {
+    top: 50px;
+    left: -110px;
+    opacity: 0;
+  }
 }
 
 .dropdown.active .third-dd {
-	display: block;
-	animation: .3s drop-portf-three ease-in-out forwards;
-	animation-delay: .5s;
+  display: block;
+  animation: 0.3s drop-portf-three ease-in-out forwards;
+  animation-delay: 0.5s;
 }
 @keyframes drop-portf-three {
-	0% {top: 80px; left: -110px; opacity: 0;}
-	100% { top: 120px; left: -110px; opacity:1; }
+  0% {
+    top: 80px;
+    left: -110px;
+    opacity: 0;
+  }
+  100% {
+    top: 120px;
+    left: -110px;
+    opacity: 1;
+  }
 }
 .dropdown.inactive .third-dd {
-	animation: .3s drop-portf-back-three ease-in-out forwards;
+  animation: 0.3s drop-portf-back-three ease-in-out forwards;
 }
 @keyframes drop-portf-back-three {
-	0% { top: 120px; left: -110px; opacity:1; }
-	100% {top: 80px; left: -110px; opacity: 0;}
-	
+  0% {
+    top: 120px;
+    left: -110px;
+    opacity: 1;
+  }
+  100% {
+    top: 80px;
+    left: -110px;
+    opacity: 0;
+  }
 }
 
 @media all and (max-width: 950px) {
-	header {
-		flex-direction:column;
-	}
-	.name-container {
-		margin: auto;
-	}
-	.navigation {
-		justify-content: space-around;
-	}
+  header {
+    flex-direction: column;
+  }
+  .name-container {
+    margin: auto;
+  }
+  .navigation {
+    justify-content: space-around;
+  }
 }
 
 @media all and (max-width: 600px) {
-	.name-container {
-		width: 17.8em;
-	}
-	.name {
-	font-size: 24px;
-	}
-	.dropdown {
-		display: none;
-	}
+  .name-container {
+    width: 17.8em;
+  }
+  .name {
+    font-size: 24px;
+  }
+  .dropdown {
+    display: none;
+  }
 }
 
 /*end of styles for the header*/
@@ -275,117 +346,120 @@ header {
 /*banner:*/
 
 .banner-container {
-	max-width: 1160px;
-	margin: 24px auto;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-evenly;
-	align-items: center;
+  max-width: 1160px;
+  margin: 24px auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .who-am-i {
-	width: 500px;
-	margin-right:4px;
-	letter-spacing: .02em;	
+  width: 500px;
+  margin-right: 4px;
+  letter-spacing: 0.02em;
 }
 
 .red-line {
-	width: 80px;
-	height: 2px;
-	background-color: #c1060e;
-	margin: 25px 0;
+  width: 80px;
+  height: 2px;
+  background-color: #c1060e;
+  margin: 25px 0;
 }
 
-.face {	
-	width: 400px;
-	margin-left:38px;
+.face {
+  width: 400px;
+  margin-left: 38px;
 }
 
 @media all and (max-width: 1000px) {
-	.who-am-i {
-		margin: 0 6px;
-	}
-	.face {
-		margin: 0;
-	}
+  .who-am-i {
+    margin: 0 6px;
+  }
+  .face {
+    margin: 0;
+  }
 }
 
 @media all and (max-width: 928px) {
-	.who-am-i {
-		order: 2;
-	}
-	.face {
-		order: 1;
-	}
+  .who-am-i {
+    order: 2;
+  }
+  .face {
+    order: 1;
+  }
 }
 @media all and (max-width: 600px) {
-	.who-am-i {
-		text-align: center;
-	}
-	.red-line {
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.name {
-		padding: 0;
-	}
+  .who-am-i {
+    text-align: center;
+  }
+  .red-line {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .name {
+    padding: 0;
+  }
 }
 
 /*end of banner styles*/
 
 /*scrollers styles*/
 .scroller {
-	position:relative; /* z-index only works on positioned elements*/
-	background: #2098D1;
-	z-index: 1;
-	height: 50px;
-	width: 100%;
-	margin: 0;
-	padding: 15px 0 10px 0;
-	text-align: center;
-	overflow: hidden;
+  position: relative; /* z-index only works on positioned elements*/
+  background: #2098d1;
+  z-index: 1;
+  height: 50px;
+  width: 100%;
+  margin: 0;
+  padding: 15px 0 10px 0;
+  text-align: center;
+  overflow: hidden;
 }
-#javascript-katas, #css3-examples {
-	padding-top: 100px;
+#javascript-katas,
+#css3-examples {
+  padding-top: 100px;
 }
 .button-naira {
-	background: #0078B1;
-	letter-spacing: 1.2px;
-	font-size: 16px;
-	text-transform: uppercase;
-	font-weight: 600;
-	line-height: 44px;
-	display: block;
-	width: 240px;
-	height: 44px;
-	border: 3px solid;
-	border-radius: 5px;
-	vertical-align: middle;
-	margin: 0  0 0 auto;
-	padding: 0;
-	overflow: hidden;
-	transition: all 0.3s ease-in-out;
-	position: relative;
-	left: 5px;
+  background: #0078b1;
+  letter-spacing: 1.2px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 44px;
+  display: block;
+  width: 240px;
+  height: 44px;
+  border: 3px solid;
+  border-radius: 5px;
+  vertical-align: middle;
+  margin: 0 0 0 auto;
+  padding: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  left: 5px;
 }
-.button-naira:hover i.icon-naira, .button-naira:active i.icon-naira {
-	display: block;
+.button-naira:hover i.icon-naira,
+.button-naira:active i.icon-naira {
+  display: block;
 }
-.button-naira:hover, .button-naira:active {
-	background-color: #c1060e;
-	border-color: #c1060e;
-	opacity: .7;
+.button-naira:hover,
+.button-naira:active {
+  background-color: #c1060e;
+  border-color: #c1060e;
+  opacity: 0.7;
 }
 i.icon-naira {
-	font-size: 44px;
-	width: 100%;
-	height: 100%;
-	display: none;
-	line-height: 44px;
-	margin: 0;
-	padding: 0;
-	background-color: none;
-	color: white;
+  font-size: 44px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  line-height: 44px;
+  margin: 0;
+  padding: 0;
+  background-color: none;
+  color: white;
 }
 
 /*end of scrollers styles*/
@@ -393,189 +467,227 @@ i.icon-naira {
 /*portfolio:*/
 
 .port-container {
-	display: flex;
-	flex-flow: row wrap;
-	width: 100%;
-	margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  margin: 0;
 }
 .port-item {
-	width: 350px;
-	height: 300px;
-	flex-grow: 1;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	position: relative;
+  width: 350px;
+  height: 300px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
 }
-.port-item img{
-	width: 200px;
-	align-self: center;
-	transition: transform 0.4s;
+.port-item img {
+  width: 200px;
+  align-self: center;
+  transition: transform 0.4s;
 }
 
-.codepen img{
-	width: 300px;
+.codepen img {
+  width: 300px;
 }
 .kata img {
-	width: 100%;
-	height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
-.port-item:hover > img, .port-item:active > img {
-	transform: scale(0.80);
+.port-item:hover > img,
+.port-item:active > img {
+  transform: scale(0.8);
 }
 
 .slide-up {
-	background-color: black;
-	opacity: 0.75;
-	width: 90%;
-	position: absolute;
-	bottom: 0;
-	margin: 0;
-	line-height: 1.4;
-	padding: 1.01em 5.01%; /*1.01em and 5.01% because at 1em there's a little space under it, at some sizes...
-			 there's no reason for that space, and makes no sense why this fixes it...but it does*/
+  background-color: black;
+  opacity: 0.75;
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  line-height: 1.4;
+  padding: 1.01em 5.01%; /*1.01em and 5.01% because at 1em there's a little space under it, at some sizes...
+       there's no reason for that space, and makes no sense why this fixes it...but it does*/
 
-	transform: translateY(100%);
-	transition: transform 0.4s;
+  transform: translateY(100%);
+  transition: transform 0.4s;
 }
 
-.port-item:hover > .slide-up, .port-item:active > .slide-up {
-	transform: translateY(0);
-
+.port-item:hover > .slide-up,
+.port-item:active > .slide-up {
+  transform: translateY(0);
 }
 
-
-.comic {background-color: rgb(219, 7, 7);}
-.croatia {background-color: rgb(50,50,50);}
-.famtrav {background-color: rgb(200, 200, 200);}
-.sonia {background-color: white;}
-.janos {background-color: #2098D1;}
-.vps {background-color: rgb(15, 15, 15);}
-.freelancer { background-color: #c1060e;}
-.freelancer img {width:80%;}
-.sunrise {	background-color: #272c34;}
-.profile {background-color: #264057;}
-.all-pens {	background-color: #c1060e;}
-.all-pens img {width: 80%;}
-.kata1 {background-color: rgb(200, 200, 200);}
-.kata2 {background-color: black;}
-.kata2 img{ width: 100%; height: 65%; }
-.kata3 {	background-color: #c1060e;}
-.kata3 img {width: 100%; height: 100%;}
+.comic {
+  background-color: rgb(219, 7, 7);
+}
+.croatia {
+  background-color: rgb(50, 50, 50);
+}
+.famtrav {
+  background-color: rgb(200, 200, 200);
+}
+.sonia {
+  background-color: white;
+}
+.janos {
+  background-color: #2098d1;
+}
+.vps {
+  background-color: rgb(15, 15, 15);
+}
+.freelancer {
+  background-color: #c1060e;
+}
+.freelancer img {
+  width: 80%;
+}
+.sunrise {
+  background-color: #272c34;
+}
+.profile {
+  background-color: #264057;
+}
+.all-pens {
+  background-color: #c1060e;
+}
+.all-pens img {
+  width: 80%;
+}
+.kata1 {
+  background-color: rgb(200, 200, 200);
+}
+.kata2 {
+  background-color: black;
+}
+.kata2 img {
+  width: 100%;
+  height: 65%;
+}
+.kata3 {
+  background-color: #c1060e;
+}
+.kata3 img {
+  width: 100%;
+  height: 100%;
+}
 /*end of portfolio styles*/
 
 .featured {
-	width: 100%;
-	margin: 0;
-	color: #333;
-	background-color: white;
-	position: relative; /*z-index only works on positioned elements*/
-	z-index: 1; /*hides the slide-up from the portfolio section*/
+  width: 100%;
+  margin: 0;
+  color: #333;
+  background-color: white;
+  position: relative; /*z-index only works on positioned elements*/
+  z-index: 1; /*hides the slide-up from the portfolio section*/
 
-	text-align: center;
-	padding-bottom: 100px;
+  text-align: center;
+  padding-bottom: 100px;
 }
 
-.featured h1, .featured p, .featured h3 {
-	margin: 0; /*can't have a margin on the first element (because I need the slide-up above hidden
-	                        so we might as well just reset everything*/
+.featured h1,
+.featured p,
+.featured h3 {
+  margin: 0; /*can't have a margin on the first element (because I need the slide-up above hidden
+                          so we might as well just reset everything*/
 }
 
-.featured h1{
-	padding: 90px 0 30px 0;
-	font-size: 2.2em;
-	font-weight: bold;
+.featured h1 {
+  padding: 90px 0 30px 0;
+  font-size: 2.2em;
+  font-weight: bold;
 }
 
 .featured p {
-	padding: 20px 0;
-	max-width: 700px;
-	margin: 0 auto;
-	line-height: 160%;
+  padding: 20px 0;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 160%;
 }
 
 .featured h3 {
-	padding: 26px 0 0 0;
-	font-size: 1.2em;
-	font-weight: bold;
+  padding: 26px 0 0 0;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
 /*testimonials section*/
 
 .testimonials {
-	display: block;
-	width: 100%;
-	margin: 0;
-	color: #333;
-	background-color: white;
-	text-align: center;
-	border-top: 1px solid white;
-	padding-bottom: 60px;
+  display: block;
+  width: 100%;
+  margin: 0;
+  color: #333;
+  background-color: white;
+  text-align: center;
+  border-top: 1px solid white;
+  padding-bottom: 60px;
 }
 
-
 .testimonials h1 {
-	padding:0;
-	font-size: 2.2em;
-	font-weight: bold;
-
+  padding: 0;
+  font-size: 2.2em;
+  font-weight: bold;
 }
 
 .testimonials blockquote {
-	width: 94%;
-	max-width: 600px;
-	margin: 0 auto;
-	padding: 0 0 14px 0;
-	text-align: left;
-	font-size: 16px;
+  width: 94%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 0 14px 0;
+  text-align: left;
+  font-size: 16px;
 }
 
 .testimonials blockquote::before {
-	display: block;
-	content: "\201C";
-	position: relative;
-	top: 40px;
-	text-align: center;
-	width: 100%;
-	font-size: 100px;
-	color: #ca4e50;
-	padding: 0;
-	margin: 0;
-	line-height: 0.8;
+  display: block;
+  content: "\201C";
+  position: relative;
+  top: 40px;
+  text-align: center;
+  width: 100%;
+  font-size: 100px;
+  color: #ca4e50;
+  padding: 0;
+  margin: 0;
+  line-height: 0.8;
 }
 
 .testimonials blockquote footer {
-	text-align: right;
-	font-weight: bold;
-	font-size: 18px;
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .testimonials a {
-	color: #ca4e50;
+  color: #ca4e50;
 }
-.testimonials a:hover, .testimonials a:active {
-	color: #c1060e;
+.testimonials a:hover,
+.testimonials a:active {
+  color: #c1060e;
 }
 
 /*end of testimonials*/
 /*footer:*/
 .footer {
-	width: 100%;
-	background-color: #111;
-	color: #aaa;
-	line-height: 140%;
-	padding: 5px 0;
-	text-align: center;
-	font-size: .75em;
+  width: 100%;
+  background-color: #111;
+  color: #aaa;
+  line-height: 140%;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 0.75em;
 }
 .footer a {
-	font-weight: bold;
-	transition: color .3s;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
-.footer a:hover, .footer a:active {
-	color: #c1060e;
+.footer a:hover,
+.footer a:active {
+  color: #c1060e;
 }
 
 /*end of homepage styles*/
@@ -583,221 +695,217 @@ i.icon-naira {
 /*portofolio about styles:*/
 
 .port-about-banner {
-	text-align: center;
-	margin-top: 80px;
-	margin-bottom: 30px;
-
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
 }
 .port-about-banner h1 {
-	font-size: 40px;
-	margin: 0;
+  font-size: 40px;
+  margin: 0;
 }
 .port-about-banner h3 {
-	font-weight: normal;
-	margin: 10px 0;
+  font-weight: normal;
+  margin: 10px 0;
 }
 
 .portx2 {
-	width: 100%;
-	background-color: white;
-	color: #333;
-	text-align: center;
-	padding: 60px 0 40px 0;
-	margin: 0;
-
+  width: 100%;
+  background-color: white;
+  color: #333;
+  text-align: center;
+  padding: 60px 0 40px 0;
+  margin: 0;
 }
 
 .portx2-image {
-	display: block;
-	position: relative;
-	width: 94%;
-	max-width: 700px;
-	margin: auto;
+  display: block;
+  position: relative;
+  width: 94%;
+  max-width: 700px;
+  margin: auto;
 }
 
 .portx2 img {
-	width: 100%;
+  width: 100%;
 }
 
 .overlay {
-	position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    background-color: #000;
-    opacity: 0;
-    z-index: 100;
-    display: block;
-    transition: opacity .3s;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  background-color: #000;
+  opacity: 0;
+  z-index: 100;
+  display: block;
+  transition: opacity 0.3s;
 }
 
 .portx2-image:hover > .overlay {
-    opacity:0.1;
+  opacity: 0.1;
 }
 
 .portx2 h4 {
-	margin: 0;
-	padding: 0;
-	font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
 }
 
 .portx2 .button {
-	display: block;
-	width: 240px;
-	margin: 50px auto;
-	font-size: 18px;
-	line-height: 3;
-	text-transform: uppercase;
-	font-weight: bold;
-	background-color: #c1060e;
-	opacity: .8;
-	color: white;
-	transition: opacity .3s;
+  display: block;
+  width: 240px;
+  margin: 50px auto;
+  font-size: 18px;
+  line-height: 3;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #c1060e;
+  opacity: 0.8;
+  color: white;
+  transition: opacity 0.3s;
 }
 
 .portx2 .button i {
-	margin-left: .40em;
+  margin-left: 0.4em;
 }
 
-.portx2 .button:hover, .portx2 .button:active { 
-	opacity: 1;
-	}
+.portx2 .button:hover,
+.portx2 .button:active {
+  opacity: 1;
+}
 
 .description {
-	width: 100%;
-	background-color: white;
-	color: #333;
-	text-align: center;
+  width: 100%;
+  background-color: white;
+  color: #333;
+  text-align: center;
 }
 .description p {
-	width: 94%;
-	margin: 0 auto;
-	max-width: 700px;
-	line-height: 1.6;
-	text-align: left;
-	padding-bottom: 30px;
+  width: 94%;
+  margin: 0 auto;
+  max-width: 700px;
+  line-height: 1.6;
+  text-align: left;
+  padding-bottom: 30px;
 }
 
 .description:not(:first-child) {
-	text-indent: 20px;
+  text-indent: 20px;
 }
 
 .description img {
-	width: 100px;
-	float: left;
-	margin: 0 20px 0 0;
+  width: 100px;
+  float: left;
+  margin: 0 20px 0 0;
 }
 
 /*about-janos styles:*/
 .about-intro {
-	width: 100%;
-	background-color: white;
-	color: #333;
-	text-align: center;
-	padding-top:100px;
+  width: 100%;
+  background-color: white;
+  color: #333;
+  text-align: center;
+  padding-top: 100px;
 }
-.about-intro p, .about-intro ul {
-	width: 94%;
-	margin: 0 auto;
-	max-width: 700px;
-	line-height: 1.6;
-	text-align: left;
-	padding-bottom: 30px;
+.about-intro p,
+.about-intro ul {
+  width: 94%;
+  margin: 0 auto;
+  max-width: 700px;
+  line-height: 1.6;
+  text-align: left;
+  padding-bottom: 30px;
 }
-
 
 .about-intro:not(:first-child) {
-	text-indent: 20px;
+  text-indent: 20px;
 }
 
 .about-intro img {
-	width: 300px;
-	float: left;
-	margin: 0 14px 20px 0;
-	border: 2px solid gray;
+  width: 300px;
+  float: left;
+  margin: 0 14px 20px 0;
+  border: 2px solid gray;
 }
 
 ul.about-list {
-	max-width: 380px;
+  max-width: 380px;
 }
-.about-list li{
-	padding-bottom: .5em;
+.about-list li {
+  padding-bottom: 0.5em;
 }
 
 @media all and (max-width: 700px) {
-	.about-intro img {
-		width: 94%;
-		max-width: 380px;
-		margin: 0 auto 20px auto;
-		display: block;
-		float: none;
-	}
-
+  .about-intro img {
+    width: 94%;
+    max-width: 380px;
+    margin: 0 auto 20px auto;
+    display: block;
+    float: none;
+  }
 }
 /*hire-janos styles*/
 
-
 .hire {
-	width: 100%;
-	background-color: white;
-	color: #333;
-	text-align: center;
-	padding-top:100px;
-	display: block;
-	font-size: 1.1em;
-	text-align: center;
+  width: 100%;
+  background-color: white;
+  color: #333;
+  text-align: center;
+  padding-top: 100px;
+  display: block;
+  font-size: 1.1em;
+  text-align: center;
 }
-.hire>p {
-	width: 94%;
-	margin: 0 auto;
-	max-width: 700px;
-	line-height: 1.6;
-	padding-bottom: 30px;
+.hire > p {
+  width: 94%;
+  margin: 0 auto;
+  max-width: 700px;
+  line-height: 1.6;
+  padding-bottom: 30px;
 }
 
 .hire-container {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	width: 94%;
-	margin: 0 auto;
-	max-width: 700px;
-	line-height: 1.6;
-	text-align: left;
-	padding: 15px 0 30px 0;
-	border-top: 2px solid #c1060e;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 94%;
+  margin: 0 auto;
+  max-width: 700px;
+  line-height: 1.6;
+  text-align: left;
+  padding: 15px 0 30px 0;
+  border-top: 2px solid #c1060e;
 }
 .hire-element {
-	width: 250px;
-	text-align: center;
+  width: 250px;
+  text-align: center;
 }
 
 .hire-link {
-	width: 200px;
-	display: block;
-	margin: 0 auto;	
+  width: 200px;
+  display: block;
+  margin: 0 auto;
 }
 .mailbox {
-	width: 130px;
+  width: 130px;
 }
 .phone {
-	width: 150px;
+  width: 150px;
 }
 
 .hire-link img {
-	width: 100%;
+  width: 100%;
 }
 
 /*codepen about styles*/
-.cp_embed_wrapper{
-	margin: 10px auto;
+.cp_embed_wrapper {
+  margin: 10px auto;
 }
 
 @media all and (min-width: 700px) {
-	.cp_embed_wrapper{
-	margin: 10px auto 30px auto;
-	width: 80%;
-}
-
+  .cp_embed_wrapper {
+    margin: 10px auto 30px auto;
+    width: 80%;
+  }
 }

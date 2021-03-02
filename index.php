@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -36,7 +36,7 @@
 				<li class="third-dd"><a href="index.html#javascript-katas">Javascript Katas</a></li>
 			</ul>
 			<li><a class="not-last" href="index.html#testimonials">Testimonials</a></li>
-			<li><a class="not-last" href="#">Blog</a></li>
+			<li><a target="_blank" class="not-last" href="http://janos-blog.22web.org">Blog</a></li>
 			<li><a class="last" href="janos-hire.html">Hire János</a></li>
 		</ul>
 	</header>

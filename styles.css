@@ -81,15 +81,6 @@ header {
   50% {
     border-color: #e4b7b7;
   }
-  /*
-  other color options for the cursor (colors from the logo): 
-    #1e1e1e 43.7 % Nero (Black)
-    #c1060e 30.6 % Venetian Red (Red)
-    #e4b7b7 6.9 % Cavern Pink (Pink)
-    #b4b4b4 6.4 % Loblolly (Grey)
-    #5a5a5a 5.9 % Bright Grey (Grey)
-    #ca4e50 3.8 % Fuzzy Wuzzy Brown (Brown)
-    #db7d7e 2.6 % Sea Pink (Pink) */
 }
 
 .navigation {
@@ -417,7 +408,8 @@ header {
   overflow: hidden;
 }
 #javascript-katas,
-#css3-examples {
+#css3-examples,
+#freelance-work {
   padding-top: 100px;
 }
 .button-naira {
@@ -544,6 +536,11 @@ i.icon-naira {
 .freelancer img {
   width: 80%;
 }
+
+.robotalk {
+  background-color: black;
+}
+
 .sunrise {
   background-color: #272c34;
 }

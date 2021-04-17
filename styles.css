@@ -477,11 +477,20 @@ i.icon-naira {
   width: 200px;
   align-self: center;
   transition: transform 0.4s;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .codepen img {
   width: 300px;
 }
+
+.larger-gif img {
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+}
+
 .kata img {
   width: 100%;
   height: 100%;
@@ -904,5 +913,12 @@ ul.about-list {
   .cp_embed_wrapper {
     margin: 10px auto 30px auto;
     width: 80%;
+  }
+}
+
+/*hide desktop-only content*/
+@media screen and (max-width: 768px) {
+  .desktop-only {
+    display: none;
   }
 }

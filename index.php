@@ -31,9 +31,9 @@
 			<li><a class="not-last" href="about.html">About</a></li>
 			<li class="portf" id="portf"><a class="not-last" id="portf-anchor">Portfolio</a></li>
 			<ul class="dropdown" id="dropdown">
-				<li class="first-dd"><a href="index.html#port-container">Freelance work</a></li>
-				<li class="second-dd"><a href="index.html#css3-examples">CSS3 Examples</a></li>
-				<li class="third-dd"><a href="index.html#javascript-katas">Javascript Katas</a></li>
+        <li class="first-dd"><a href="index.html#port-container">React Examples</a></li>
+				<li class="second-dd"><a href="index.html#port-container">Freelance work</a></li>
+				<li class="third-dd"><a href="index.html#css3-examples">CSS3 Examples</a></li>
 			</ul>
 			<li><a class="not-last" href="index.html#testimonials">Testimonials</a></li>
 			<li><a target="_blank" class="not-last" href="http://janos-blog.22web.org">Blog</a></li>
@@ -48,6 +48,29 @@
 		</section>
 		<img class="face" src="images/face.png" alt="face"></img>
 	</div>
+
+  <!-- React Examples -->
+
+  <div class="scroller" id="react-examples">
+    <a class="button-naira" href="index.html#react-examples"><i class="icon-naira fa fa-chevron-down"></i><span>React Examples</span></a>
+  </div>
+  <section class="port-container" id="port-container">
+    <a href="http://robotalk.22web.org" class="port-item larger-gif robotalk" target="_blank">
+      <img src="images/port/robotalk.gif" alt="robotalk gif"></img>
+      <p class="slide-up">react, hooks, react-timer-hook, react-speech-kit</p>
+    </a>
+    <a href="http://multi-step-form.22web.org" class="port-item larger-gif profile" target="_blank">
+      <img src="images/port/multi-step-form.gif" alt="profile"></img>
+      <p class="slide-up">react-router, framer-motion, context, react-hook-form</p>
+    </a>
+    <a href="https://github.com/misztijanos" class="port-item codepen all-pens" target="_blank">
+      <img src="images/port/github.gif" alt="all pens"></img>
+      <p class="slide-up">Check out all the code & more, on my Github</p>
+    </a>
+  </section>
+
+  <!-- Freelance work -->
+
 	<div class="scroller" id="freelance-work">
 		<a class="button-naira" href="index.html#freelance-work"><i class="icon-naira fa fa-chevron-down"></i><span>Freelance work</span></a>
 	</div>
@@ -65,7 +88,7 @@
 			<img src="images/port/vps-logo.png" alt="Vancouver Pet Sitting"></img>
 			<p class="slide-up">JQuery, Bootstrap, PHP, HTML5, CSS3</p>
 		</a>				
-		<a href="http://www.sonialiao.com/" class="port-item sonia">
+		<a href="http://www.sonialiao.com/" class="port-item sonia" target="_blank">
 			<img src="images/port/sonia-logo.png" alt="Sonia Liao"></img>
 			<p class="slide-up">HTML5, CSS3, Responsive, Javascript</p>
 		</a><!-- 
@@ -77,45 +100,48 @@
 			<img src="images/port/janos-logo.png" alt="Miszti Janos Homepage"></img>
 			<p class="slide-up">HTML5, CSS3, Photoshop, Responsive, no-script</p>
 		</a>
-		<a href="https://www.freelancer.com/u/BlackTurtle" class="port-item freelancer">
+		<a href="https://www.freelancer.com/u/BlackTurtle" class="port-item freelancer" target="_blank">
 		<!--vps is a unique class, to allow us to pick the right background color in css -->
 			<img src="images/port/captured.gif" alt="freelancer.com"></img>
 			<p class="slide-up">Check out my Freelancer.com reviews</p>
 		</a>
 	</section>
 
+  <!-- CSS Examples -->
+
 	<div class="scroller" id="css3-examples">
 		<a class="button-naira" href="index.html#css3-examples"><i class="icon-naira fa fa-chevron-down"></i><span>CSS3 Examples</span></a>
 	</div>
 	<section class="port-container" id="port-container">
-		<a href="https://codepen.io/stansfield/pen/pmKwNJ" class="port-item codepen sunrise">
+		<a href="https://codepen.io/stansfield/pen/pmKwNJ" class="port-item codepen sunrise" target="_blank">
 			<img src="images/port/sunrise.gif" alt="sunrise"></img>
 			<p class="slide-up">HTML5, CSS3, animation</p>
 		</a>
-		<a href="https://codepen.io/stansfield/pen/KLOEej" class="port-item codepen profile">
+		<a href="https://codepen.io/stansfield/pen/KLOEej" class="port-item codepen profile" target="_blank">
 			<img src="images/port/profile.gif" alt="profile"></img>
 			<p class="slide-up">HTML5, CSS3, design, animation</p>
 		</a>
-		<a href="https://codepen.io/stansfield/pens/public/" class="port-item codepen all-pens">
+		<a href="https://codepen.io/collection/ArYJyy" class="port-item codepen all-pens" target="_blank">
 			<img src="images/port/all-pens.gif" alt="all pens"></img>
 			<p class="slide-up">Check out all my pens</p>
 		</a>
 	</section>
 	
+  <!-- Javascript Katas - desktop only -->
 
-	<div class="scroller" id="javascript-katas">
+	<div class="scroller desktop-only" id="javascript-katas">
 		<a class="button-naira" href="index.html#javascript-katas"><i class="icon-naira fa fa-chevron-down"></i><span>Javascript katas</span></a>
 	</div>
-	<section class="port-container" id="port-container">
-		<a href="https://www.codewars.com/kata/sat-nav-directions/solutions/javascript/" class="port-item kata kata1">
+	<section class="port-container desktop-only" id="port-container">
+		<a href="https://www.codewars.com/kata/sat-nav-directions/solutions/javascript/" class="port-item kata kata1" target="_blank">
 			<img src="images/port/kata1.gif" alt="first kata"></img>
 			<p class="slide-up">Javascript fundamentals, complex problem solving</p>
 		</a>
-		<a href="https://www.codewars.com/kata/reviews/553a8bb91e0399d6f70001b9/groups/5d0df7bddb3e840001e177c6" class="port-item kata kata2">
+		<a href="https://www.codewars.com/kata/reviews/553a8bb91e0399d6f70001b9/groups/5d0df7bddb3e840001e177c6" class="port-item kata kata2" target="_blank">
 			<img src="images/port/kata2.gif" alt="second kata"></img>
 			<p class="slide-up">Javascript, regular expressions</p>
 		</a>
-		<a href="https://www.codewars.com/users/misztijanos/completed" class="port-item kata kata3">
+		<a href="https://www.codewars.com/users/misztijanos/completed" class="port-item kata kata3" target="_blank">
 			<img src="images/port/kata3.gif" alt="all kata"></img>
 			<p class="slide-up">Check out all my katas</p>
 		</a>

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/multi-step-form/static/css/main.8f5bb8e7.chunk.css",
+    "main.js": "/multi-step-form/static/js/main.811a2ced.chunk.js",
+    "main.js.map": "/multi-step-form/static/js/main.811a2ced.chunk.js.map",
+    "runtime-main.js": "/multi-step-form/static/js/runtime-main.8e3f8eed.js",
+    "runtime-main.js.map": "/multi-step-form/static/js/runtime-main.8e3f8eed.js.map",
+    "static/js/2.644c21c3.chunk.js": "/multi-step-form/static/js/2.644c21c3.chunk.js",
+    "static/js/2.644c21c3.chunk.js.map": "/multi-step-form/static/js/2.644c21c3.chunk.js.map",
+    "index.html": "/multi-step-form/index.html",
+    "static/css/main.8f5bb8e7.chunk.css.map": "/multi-step-form/static/css/main.8f5bb8e7.chunk.css.map",
+    "static/js/2.644c21c3.chunk.js.LICENSE.txt": "/multi-step-form/static/js/2.644c21c3.chunk.js.LICENSE.txt",
+    "static/media/817603_l.551d7585.jpg": "/multi-step-form/static/media/817603_l.551d7585.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e3f8eed.js",
+    "static/js/2.644c21c3.chunk.js",
+    "static/css/main.8f5bb8e7.chunk.css",
+    "static/js/main.811a2ced.chunk.js"
+  ]
+}

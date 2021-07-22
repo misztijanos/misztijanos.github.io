@@ -55,11 +55,11 @@
     <a class="button-naira" href="index.html#react-examples"><i class="icon-naira fa fa-chevron-down"></i><span>React Examples</span></a>
   </div>
   <section class="port-container" id="port-container">
-    <a href="http://robotalk.22web.org" class="port-item larger-gif robotalk" target="_blank">
+    <a href="/robotalk" class="port-item larger-gif robotalk" target="_blank">
       <img src="images/port/robotalk.gif" alt="robotalk gif"></img>
       <p class="slide-up">react, hooks, react-timer-hook, react-speech-kit</p>
     </a>
-    <a href="http://multi-step-form.22web.org" class="port-item larger-gif profile" target="_blank">
+    <a href="/multi-step-form" class="port-item larger-gif profile" target="_blank">
       <img src="images/port/multi-step-form.gif" alt="profile"></img>
       <p class="slide-up">react-router, framer-motion, context, react-hook-form</p>
     </a>

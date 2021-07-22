@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/robotalk/static/css/main.8eb82298.chunk.css",
+    "main.js": "/robotalk/static/js/main.f8745c03.chunk.js",
+    "main.js.map": "/robotalk/static/js/main.f8745c03.chunk.js.map",
+    "runtime-main.js": "/robotalk/static/js/runtime-main.270bb771.js",
+    "runtime-main.js.map": "/robotalk/static/js/runtime-main.270bb771.js.map",
+    "static/js/2.9fd0585a.chunk.js": "/robotalk/static/js/2.9fd0585a.chunk.js",
+    "static/js/2.9fd0585a.chunk.js.map": "/robotalk/static/js/2.9fd0585a.chunk.js.map",
+    "index.html": "/robotalk/index.html",
+    "static/css/main.8eb82298.chunk.css.map": "/robotalk/static/css/main.8eb82298.chunk.css.map",
+    "static/js/2.9fd0585a.chunk.js.LICENSE.txt": "/robotalk/static/js/2.9fd0585a.chunk.js.LICENSE.txt",
+    "static/media/delete.0c70e24c.jpg": "/robotalk/static/media/delete.0c70e24c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.270bb771.js",
+    "static/js/2.9fd0585a.chunk.js",
+    "static/css/main.8eb82298.chunk.css",
+    "static/js/main.f8745c03.chunk.js"
+  ]
+}
